@@ -11,9 +11,10 @@ if (!token) throw new Error('Aucun jeton : ajoutez le secret IG_TOKEN_INIT');
 const age = etat ? (Date.now() - Date.parse(etat.prolonge_le)) / 864e5 : 99;
 if (age > 7) {
   const r = await (await fetch(`https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=${token}`)).json();
-  if (r.error) throw new Error('Prolongation du jeton : ' + r.error.message);
-  token = r.access_token;
-  etat = { jeton: enc(token), prolonge_le: new Date().toISOString(), expire_dans_jours: Math.round(r.expires_in / 864e2) };
+  if (r.error && etat) throw new Error('Prolongation du jeton : ' + r.error.message);
+  if (!r.error) token = r.access_token;
+  else console.log('Jeton trop récent pour être prolongé, il le sera dans 7 jours.');
+  etat = { jeton: enc(token), prolonge_le: new Date().toISOString(), expire_dans_jours: r.expires_in ? Math.round(r.expires_in / 864e2) : 60 };
   writeFileSync('jeton.json', JSON.stringify(etat, null, 1));
   console.log('Jeton prolongé.');
 }

@@ -33,7 +33,10 @@ async function waitReady(id) {
 }
 
 const post = cal.find(p => !p.publie && !p.attente && p.date && p.date <= today);
-if (!post) { console.log(`Rien à publier le ${today}.`); process.exit(0); }
+if (!post) {
+  if (!DRY) { const m = await call('/me', { fields: 'username' }, 'GET'); console.log(`Accès Instagram OK (@${m.username}).`); }
+  console.log(`Rien à publier le ${today}.`); process.exit(0);
+}
 console.log(`Post ${post.id} prévu le ${post.date} (${post.format})`);
 if (DRY) { console.log(JSON.stringify(post, null, 1).slice(0, 1500)); process.exit(0); }
 
