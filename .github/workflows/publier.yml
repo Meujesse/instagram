@@ -1,0 +1,29 @@
+name: Publication Instagram du jour
+on:
+  schedule:
+    - cron: '30 10 * * *'   # 12 h 30 à Paris en été, 11 h 30 en hiver
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: publication
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Jeton
+        run: node jeton.mjs
+        env:
+          IG_TOKEN_INIT: ${{ secrets.IG_TOKEN_INIT }}
+          TOKEN_KEY: ${{ secrets.TOKEN_KEY }}
+      - name: Publier
+        run: node publier.mjs
+      - name: Enregistrer
+        if: always()
+        run: |
+          git config user.name "Robot Instagram Meujesse"
+          git config user.email "contact@meujesselearning.com"
+          git add calendrier.json jeton.json 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "Publication du $(date +%F)" && git push)
