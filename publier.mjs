@@ -32,6 +32,9 @@ async function waitReady(id) {
   throw new Error(`Conteneur ${id} pas prêt après 10 min`);
 }
 
+const parisDay = iso => new Intl.DateTimeFormat('fr-CA', { timeZone: 'Europe/Paris' }).format(new Date(iso));
+const dejaFait = cal.find(p => p.publie && parisDay(p.publie.le) === today);
+if (dejaFait) { console.log(`Déjà publié aujourd'hui (${dejaFait.id}), rien de plus.`); process.exit(0); }
 const post = cal.find(p => !p.publie && !p.attente && p.date && p.date <= today);
 if (!post) {
   if (!DRY) { const m = await call('/me', { fields: 'username' }, 'GET'); console.log(`Accès Instagram OK (@${m.username}).`); }
