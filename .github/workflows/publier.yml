@@ -1,12 +1,9 @@
 name: Publication Instagram du jour
 on:
   schedule:
-    # Plusieurs essais par jour : GitHub ne garantit pas l'heure, le script ne publie qu'un post par jour.
-    - cron: '30 10 * * *'
-    - cron: '10 11 * * *'
-    - cron: '50 11 * * *'
-    - cron: '40 13 * * *'
-    - cron: '20 16 * * *'
+    # Un essai toutes les 30 min de 10 h 27 à 19 h 57 UTC : GitHub saute parfois des créneaux.
+    # Le script ne publie rien avant 12 h 25 (heure de Paris) et un seul post par jour.
+    - cron: '27,57 10-19 * * *'
   workflow_dispatch:
 permissions:
   contents: write
@@ -25,6 +22,8 @@ jobs:
           TOKEN_KEY: ${{ secrets.TOKEN_KEY }}
       - name: Publier
         run: node publier.mjs
+        env:
+          FORCER: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
       - name: Enregistrer
         if: always()
         run: |

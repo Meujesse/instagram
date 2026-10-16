@@ -8,6 +8,8 @@ const DRY = process.argv.includes('--essai');
 if (!TOKEN && !DRY) throw new Error('IG_TOKEN manquant');
 
 const cal = JSON.parse(readFileSync('calendrier.json', 'utf8'));
+const heureParis = new Intl.DateTimeFormat('fr-FR', { timeZone: 'Europe/Paris', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date());
+if (!process.env.FORCER && heureParis < '12:25') { console.log(`Trop tôt (${heureParis} à Paris), publication à partir de 12 h 25.`); process.exit(0); }
 const today = new Intl.DateTimeFormat('fr-CA', { timeZone: 'Europe/Paris' }).format(new Date());
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
