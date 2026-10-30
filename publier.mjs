@@ -13,15 +13,24 @@ if (!process.env.FORCER && heureParis < '12:25') { console.log(`Trop tôt (${heu
 const today = new Intl.DateTimeFormat('fr-CA', { timeZone: 'Europe/Paris' }).format(new Date());
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
+// Instagram renvoie parfois une réponse vide ou une erreur passagère : on réessaie (3 fois, 30 s d'écart).
+// Sauf pour media_publish, où un nouvel essai risquerait de publier deux fois.
 async function call(path, params = {}, method = 'POST') {
   const url = new URL(API + path);
   const body = new URLSearchParams({ ...params, access_token: TOKEN });
-  const res = method === 'GET'
-    ? await fetch(url + '?' + body)
-    : await fetch(url, { method, body });
-  const j = await res.json();
-  if (j.error) throw new Error(`${path} : ${j.error.message}`);
-  return j;
+  const essais = path.endsWith('/media_publish') ? 1 : 3;
+  for (let i = 1; ; i++) {
+    const res = method === 'GET'
+      ? await fetch(url + '?' + body)
+      : await fetch(url, { method, body });
+    const brut = await res.text();
+    let j; try { j = JSON.parse(brut); } catch { j = { error: { message: `réponse illisible (${res.status}) ${brut.slice(0, 200)}`, transitoire: true } }; }
+    if (!j.error) return j;
+    const passager = j.error.transitoire || j.error.is_transient || res.status >= 500;
+    if (!passager || i >= essais) throw new Error(`${path} : ${j.error.message}`);
+    console.log(`${path} : ${j.error.message}, nouvel essai dans 30 s`);
+    await sleep(30000);
+  }
 }
 
 async function waitReady(id) {

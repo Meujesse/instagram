@@ -12,7 +12,9 @@ jobs:
   publier:
     runs-on: ubuntu-latest
     steps:
+      # ref main : si deux lancements se suivent, le second relit le calendrier à jour (pas de doublon).
       - uses: actions/checkout@v4
+        with: { ref: main }
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
       - name: Jeton
