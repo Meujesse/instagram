@@ -18,10 +18,14 @@ const etat = existsSync('etat.json') ? JSON.parse(readFileSync('etat.json', 'utf
 const paris = (o, d = new Date()) => new Intl.DateTimeFormat(o === 'jour' ? 'fr-CA' : 'fr-FR',
   o === 'jour' ? { timeZone: 'Europe/Paris' } : { timeZone: 'Europe/Paris', hour: '2-digit', minute: '2-digit', hour12: false }).format(d);
 const today = paris('jour');
+// Réglages propres à chaque compte (fixés dans le workflow) : nom dans les alertes, heure de publication, jours prévus seulement.
+const NOM = process.env.NOM_ROBOT || 'robot Instagram';
+const HEURE_MIN = process.env.HEURE_MIN || '12:25';
+const JOURS_PREVUS = !!process.env.SEULEMENT_JOURS_PREVUS;
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 const sauver = () => { writeFileSync('calendrier.json', JSON.stringify(cal, null, 1)); writeFileSync('etat.json', JSON.stringify(etat, null, 1)); };
 // Une alerte devient un ticket GitHub (étape « Prévenir Jyn ») : Jyn reçoit un seul mail, en français.
-const alerte = msg => { etat.alerte = etat.alerte ? `${etat.alerte} ${msg}` : msg; console.log(`::error title=Robot Instagram::${msg}`); };
+const alerte = msg => { etat.alerte = etat.alerte ? `${etat.alerte} ${msg}` : msg; console.log(`::error title=${NOM}::${msg}`); };
 const fin = code => { sauver(); process.exit(code); };
 
 // Instagram renvoie parfois une réponse vide ou une erreur passagère : on réessaie (3 fois, 30 s d'écart).
@@ -127,9 +131,9 @@ const dejaFait = cal.find(p => p.publie && paris('jour', new Date(p.publie.le)) 
 const aPublier = p => !p.publie && !p.attente && p.date;
 const duJour = () => cal.find(p => aPublier(p) && p.date <= today);
 const prochain = () => cal.find(p => aPublier(p) && p.date > today);
-const jetonRefuse = e => { if (e.jeton) { alerte('Le jeton Instagram est expiré ou refusé : il faut en générer un nouveau. Dis à Claude « Regarde l\'alerte du robot Instagram ».'); fin(1); } };
+const jetonRefuse = e => { if (e.jeton) { alerte(`Le jeton Instagram est expiré ou refusé : il faut en générer un nouveau. Dis à Claude « Regarde l'alerte du ${NOM} ».`); fin(0); } };
 
-if (mode === 'test-alerte') { alerte('Test du système d\'alerte du robot Instagram : tout va bien, ce message peut être ignoré.'); fin(0); }
+if (mode === 'test-alerte') { alerte(`Test du système d'alerte du ${NOM} : tout va bien, ce message peut être ignoré.`); fin(0); }
 
 if (mode === 'repetition') {
   const p = duJour() || prochain();
@@ -141,13 +145,14 @@ if (mode === 'soir') {
   if (etat.soir === today) { console.log('Contrôle du soir déjà fait aujourd\'hui.'); fin(0); }
   etat.soir = today;
   const p = duJour();
-  if (p && !dejaFait) {
+  const prevu = !JOURS_PREVUS || cal.some(x => x.date === today);
+  if (p && !dejaFait && prevu) {
     console.log(`Rattrapage du post ${p.id}, pas encore parti aujourd'hui.`);
-    try { await publier(p); } catch (e) { jetonRefuse(e); alerte(`Le post Instagram ${p.id} (« ${(p.titre || '').slice(0, 60)} ») n'est pas parti aujourd'hui malgré plusieurs essais : ${e.message.slice(0, 300)}. Le robot le retentera demain ; dis à Claude « Regarde l'alerte du robot Instagram ».`); }
+    try { await publier(p); } catch (e) { jetonRefuse(e); alerte(`Le post Instagram ${p.id} (« ${(p.titre || '').slice(0, 60)} ») n'est pas parti aujourd'hui malgré plusieurs essais : ${e.message.slice(0, 300)}. Le robot le retentera demain ; dis à Claude « Regarde l'alerte du ${NOM} ».`); }
   } else console.log(dejaFait ? 'Post du jour bien parti.' : 'Rien de prévu aujourd\'hui.');
   const n = prochain();
   if (n) {
-    try { await repeter(n); } catch (e) { jetonRefuse(e); alerte(`Le prochain post Instagram ${n.id} (prévu le ${n.date}) ne passera pas en l'état : ${e.message.slice(0, 300)}. Dis à Claude « Regarde l'alerte du robot Instagram ».`); }
+    try { await repeter(n); } catch (e) { jetonRefuse(e); alerte(`Le prochain post Instagram ${n.id} (prévu le ${n.date}) ne passera pas en l'état : ${e.message.slice(0, 300)}. Dis à Claude « Regarde l'alerte du ${NOM} ».`); }
   }
   const reste = cal.filter(aPublier).length;
   if (reste <= 15) alerte(`Plus que ${reste} posts Instagram en stock : il faut en ajouter.`);
@@ -156,8 +161,9 @@ if (mode === 'soir') {
 
 // Passage normal de la journée.
 const heure = paris('heure');
-if (!process.env.FORCER && heure < '12:25') { console.log(`Trop tôt (${heure} à Paris), publication à partir de 12 h 25.`); fin(0); }
+if (!process.env.FORCER && heure < HEURE_MIN) { console.log(`Trop tôt (${heure} à Paris), publication à partir de ${HEURE_MIN}.`); fin(0); }
 if (dejaFait) { console.log(`Déjà publié aujourd'hui (${dejaFait.id}), rien de plus.`); fin(0); }
+if (JOURS_PREVUS && !cal.some(x => x.date === today)) { console.log(`Pas de post prévu le ${today}.`); fin(0); }
 const post = duJour();
 if (!post) { console.log(`Rien à publier le ${today}.`); fin(0); }
 console.log(`Post ${post.id} prévu le ${post.date} (${post.format})`);
