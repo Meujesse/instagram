@@ -3,14 +3,31 @@ on:
   schedule:
     # Un essai toutes les 30 min de 10 h 27 à 19 h 57 UTC : GitHub saute parfois des créneaux.
     # Le script ne publie rien avant 12 h 25 (heure de Paris) et un seul post par jour.
+    # Le Mac de Jyn lance aussi le robot à 12 h 30 (publier) et à 18 h (soir).
     - cron: '27,57 10-19 * * *'
+    # Contrôle du soir (secours si le Mac est éteint) : rattrapage du jour + répétition du prochain post, fait une fois par jour.
+    - cron: '37 18-21 * * *'
+  push:
+    # Répétition générale dès que le programme ou le calendrier change.
+    paths: [publier.mjs, calendrier.json, .github/workflows/publier.yml]
   workflow_dispatch:
+    inputs:
+      mode:
+        description: 'publier = post du jour, soir = rattrapage + répétition du prochain post, repetition = préparer le prochain post sans le publier, test-alerte = vérifier le mail d''alerte'
+        default: publier
 permissions:
   contents: write
-concurrency: publication
+concurrency:
+  # La répétition a sa propre file : elle ne doit jamais remplacer un lancement de publication en attente.
+  group: ${{ github.event_name == 'push' && 'repetition' || 'publication' }}
 jobs:
   publier:
+    name: Robot Instagram
     runs-on: ubuntu-latest
+    outputs:
+      alerte: ${{ steps.alerte.outputs.oui }}
+    env:
+      MODE: ${{ github.event_name == 'push' && 'repetition' || (github.event.schedule == '37 18-21 * * *' && 'soir') || inputs.mode || 'publier' }}
     steps:
       # ref main : si deux lancements se suivent, le second relit le calendrier à jour (pas de doublon).
       - uses: actions/checkout@v4
@@ -18,18 +35,38 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
       - name: Jeton
+        id: jeton
         run: node jeton.mjs
         env:
           IG_TOKEN_INIT: ${{ secrets.IG_TOKEN_INIT }}
           TOKEN_KEY: ${{ secrets.TOKEN_KEY }}
-      - name: Publier
-        run: node publier.mjs
+      - name: Robot Instagram
+        run: node publier.mjs $([ "$MODE" != publier ] && echo "--$MODE")
         env:
           FORCER: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
+      - name: Noter l'alerte
+        id: alerte
+        if: always()
+        env:
+          JETON_KO: ${{ steps.jeton.outcome == 'failure' && '1' || '' }}
+        run: |
+          node -e "
+            const fs=require('fs'),f='etat.json',e=fs.existsSync(f)?JSON.parse(fs.readFileSync(f,'utf8')):{};
+            if(process.env.JETON_KO)e.alerte=((e.alerte||'')+' Le jeton Instagram n\'a pas pu être prolongé : il faut en générer un nouveau.').trim();
+            if(e.alerte){e.derniere_alerte={le:new Date().toISOString(),message:e.alerte};fs.appendFileSync(process.env.GITHUB_OUTPUT,'oui=1\n');}
+            delete e.alerte;fs.writeFileSync(f,JSON.stringify(e,null,1));"
       - name: Enregistrer
         if: always()
         run: |
           git config user.name "Robot Instagram Meujesse"
           git config user.email "contact@meujesselearning.com"
-          git add calendrier.json jeton.json 2>/dev/null || true
-          git diff --cached --quiet || (git commit -m "Publication du $(date +%F)" && git push)
+          git add calendrier.json jeton.json etat.json 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "Robot Instagram du $(date +%F) ($MODE)" && git pull --rebase -q && git push)
+  # Seul ce bloc échoue quand Jyn doit intervenir : le mail de GitHub affiche alors ce titre en clair.
+  prevenir:
+    name: "⚠️ Un souci demande ton attention : dis à Claude « Regarde l'alerte du robot Instagram »"
+    needs: publier
+    if: always() && (needs.publier.outputs.alerte == '1' || needs.publier.result == 'failure')
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Le détail est dans etat.json (derniere_alerte) et dans le journal du bloc Robot Instagram." && exit 1
