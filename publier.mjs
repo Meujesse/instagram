@@ -138,7 +138,7 @@ if (mode === 'test-alerte') { alerte(`Test du système d'alerte du ${NOM} : tout
 if (mode === 'repetition') {
   const p = duJour() || prochain();
   if (!p) { console.log('Aucun post à venir.'); fin(0); }
-  try { await repeter(p); fin(0); } catch (e) { jetonRefuse(e); console.log(`::error title=Répétition ${p.id}::${e.message}`); fin(1); }
+  try { await repeter(p); fin(0); } catch (e) { jetonRefuse(e); alerte(`La répétition du post Instagram ${p.id} (prévu le ${p.date}) a échoué : ${e.message.slice(0, 300)}.`); fin(0); }
 }
 
 if (mode === 'soir') {
