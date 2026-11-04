@@ -105,7 +105,10 @@ async function preparer(post, ig) {
 }
 
 let compte;
-const ig = async () => (compte ||= (await call('/me', { fields: 'user_id,username' }, 'GET')).user_id);
+const ig = async () => {
+  if (!compte) { const m = await call('/me', { fields: 'user_id,username' }, 'GET'); compte = m.user_id; console.log(`Compte Instagram : @${m.username}`); }
+  return compte;
+};
 
 async function repeter(post) {
   const pb = await controler(post);
