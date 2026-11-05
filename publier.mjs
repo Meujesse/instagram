@@ -5,12 +5,12 @@
 //   --soir         dernier passage de la journée : rattrape le post du jour s'il n'est pas parti, répète celui de demain,
 //                  et prévient Jyn (une seule fois par jour) si l'un des deux a un souci
 //   --repetition   prépare le prochain post en entier chez Instagram (conteneur jamais publié, effacé au bout de 24 h)
-//   --essai        n'appelle rien, --test-alerte vérifie que l'alerte arrive bien
+//   --essai        n'appelle rien, --test-alerte vérifie que l'alerte arrive bien, --inventaire liste les 15 derniers posts du compte
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 
 const API = 'https://graph.instagram.com/v23.0';
 const TOKEN = process.env.IG_TOKEN;
-const mode = ['essai', 'repetition', 'soir', 'test-alerte'].find(m => process.argv.includes('--' + m)) || 'publier';
+const mode = ['essai', 'repetition', 'soir', 'test-alerte', 'inventaire'].find(m => process.argv.includes('--' + m)) || 'publier';
 if (!TOKEN && mode !== 'essai') throw new Error('IG_TOKEN manquant');
 
 const cal = JSON.parse(readFileSync('calendrier.json', 'utf8'));
@@ -115,12 +115,32 @@ async function repeter(post) {
   console.log(`Répétition ${post.id} (${post.format}) réussie : médias acceptés par Instagram, post prêt.`);
 }
 
+// Instagram répond parfois « erreur » à media_publish alors que le post est bien parti (4 nov. 2026 : 3 doublons).
+// Avant toute publication, et après une erreur de publication, on regarde donc ce qui est déjà en ligne.
+const texte = s => (s || '').replace(/\s+/g, ' ').trim().slice(0, 150);
+const dateIG = t => new Date(String(t).replace(/([+-]\d\d)(\d\d)$/, '$1:$2'));
+async function dejaEnLigne(post, id) {
+  const r = await call(`/${id}/media`, { fields: 'id,caption,timestamp,permalink', limit: '20' }, 'GET');
+  const recents = (r.data || []).filter(m => Date.now() - dateIG(m.timestamp) < 10 * 864e5 && texte(m.caption) === texte(post.caption));
+  return recents[recents.length - 1]; // le plus ancien s'il y en a plusieurs
+}
+const noter = (post, m) => { post.publie = { le: dateIG(m.timestamp).toISOString(), media_id: m.id, lien: m.permalink || null, retrouve: true }; sauver(); };
+
 async function publier(post) {
   const pb = await controler(post);
   if (pb.length) throw new Error(pb.join(', '));
   const id = await ig();
+  const avant = await dejaEnLigne(post, id);
+  if (avant) { noter(post, avant); console.log(`Post ${post.id} déjà en ligne (${avant.permalink}) : rien de republié.`); return; }
   const creation = await preparer(post, id);
-  const pub = await call(`/${id}/media_publish`, { creation_id: creation });
+  let pub;
+  try { pub = await call(`/${id}/media_publish`, { creation_id: creation }); } catch (e) {
+    if (e.jeton) throw e;
+    await sleep(60000);
+    const parti = await dejaEnLigne(post, id).catch(() => null);
+    if (parti) { noter(post, parti); console.log(`Instagram a répondu « ${e.message} » mais le post est bien en ligne : ${parti.permalink}`); return; }
+    throw e;
+  }
   post.publie = { le: new Date().toISOString(), media_id: pub.id, lien: null };
   sauver();
   post.publie.lien = (await call(`/${pub.id}`, { fields: 'permalink' }, 'GET').catch(() => ({}))).permalink || null;
@@ -135,6 +155,12 @@ const aPublier = p => !p.publie && !p.attente && p.date;
 const duJour = () => cal.find(p => aPublier(p) && p.date <= today);
 const prochain = () => cal.find(p => aPublier(p) && p.date > today);
 const jetonRefuse = e => { if (e.jeton) { alerte(`Le jeton Instagram est expiré ou refusé : il faut en générer un nouveau. Dis à Claude « Regarde l'alerte du ${NOM} ».`); fin(0); } };
+
+if (mode === 'inventaire') {
+  const r = await call(`/${await ig()}/media`, { fields: 'id,caption,timestamp,permalink,media_type', limit: '15' }, 'GET');
+  for (const m of r.data || []) console.log(`${m.timestamp}  ${m.media_type}  ${m.permalink}  « ${texte(m.caption).slice(0, 70)} »`);
+  process.exit(0);
+}
 
 if (mode === 'test-alerte') { alerte(`Test du système d'alerte du ${NOM} : tout va bien, ce message peut être ignoré.`); fin(0); }
 
