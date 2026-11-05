@@ -55,9 +55,9 @@ async function waitReady(id) {
     const s = await call(`/${id}`, { fields: 'status_code,status' }, 'GET');
     if (s.status_code === 'FINISHED') return;
     if (s.status_code === 'ERROR' || s.status_code === 'EXPIRED') throw new Error(`Conteneur ${id} : ${s.status}`);
-    await sleep(10000);
+    await sleep(15000);
   }
-  throw new Error(`Conteneur ${id} pas prêt après 10 min`);
+  throw new Error(`Conteneur ${id} pas prêt après 15 min`);
 }
 
 // Contrôles sans appel à Instagram : ce qui ferait échouer la publication à coup sûr.
@@ -92,10 +92,8 @@ async function preparer(post, ig) {
     creation = (await call(`/${ig}/media`, p)).id;
   } else if (post.format === 'carrousel') {
     const kids = [];
-    for (const u of post.images) {
-      const k = (await call(`/${ig}/media`, { image_url: u, is_carousel_item: 'true' })).id;
-      await waitReady(k); kids.push(k);
-    }
+    for (const u of post.images) kids.push((await call(`/${ig}/media`, { image_url: u, is_carousel_item: 'true' })).id);
+    for (const k of kids) await waitReady(k);
     creation = (await call(`/${ig}/media`, { media_type: 'CAROUSEL', children: kids.join(','), caption: post.caption })).id;
   } else {
     creation = (await call(`/${ig}/media`, { image_url: post.images[0], caption: post.caption })).id;
@@ -130,7 +128,9 @@ async function publier(post) {
   console.log(`Publié : ${post.publie.lien || pub.id}`);
 }
 
-const dejaFait = cal.find(p => p.publie && paris('jour', new Date(p.publie.le)) === today);
+// Un post parti entre minuit et 5 h (rattrapage tardif) compte pour la veille, pas pour le jour même.
+const jourDe = iso => { const d = new Date(iso); return paris('heure', d) < '05:00' ? paris('jour', new Date(d - 6 * 36e5)) : paris('jour', d); };
+const dejaFait = cal.find(p => p.publie && jourDe(p.publie.le) === today);
 const aPublier = p => !p.publie && !p.attente && p.date;
 const duJour = () => cal.find(p => aPublier(p) && p.date <= today);
 const prochain = () => cal.find(p => aPublier(p) && p.date > today);
@@ -145,6 +145,8 @@ if (mode === 'repetition') {
 }
 
 if (mode === 'soir') {
+  // GitHub lance parfois ce contrôle en retard, après minuit : il compterait alors pour le lendemain.
+  if (paris('heure') < '17:00') { console.log(`Contrôle du soir lancé hors horaire (${paris('heure')} à Paris), rien à faire.`); fin(0); }
   if (etat.soir === today) { console.log('Contrôle du soir déjà fait aujourd\'hui.'); fin(0); }
   etat.soir = today;
   const p = duJour();
