@@ -561,7 +561,11 @@
   "caption": "Il m’a fallu seulement une demi-journée pour créer un prototype de learning app 3D et je vous propose de la tester !\n\nJ’avais un objectif en tete : imaginer un moyen efficace pour que les techniciens apprennent à utiliser une machine (dans le domaine de la santé) en la manipulant (plutôt qu’en lisant une notice à rallonge ou un PDF aux captures d’écran floues... 👀).\n\nJe ne voulais pas seulement modéliser l’appareil en 3D, j’avais envie qu’on puisse simuler des bugs ou des problèmes pour apprendre à les résoudre directement via l’app.\nEt ce qui est génial, c’est que c’est déclinable pour former le SAV, les clients, les commerciaux, tout est possible !\n\nPour tester la démo : lien en bio\nJe suis curieuse d’avoir votre retour.\n\n#learningapp #3d #formationtechnique #digitallearning #elearning #sante",
   "video_url": "https://meujesse.github.io/instagram/medias/IG026/video.mp4",
   "cover_url": "https://meujesse.github.io/instagram/medias/IG026/cover.jpg",
-  "publie": null
+  "publie": {
+   "le": "2026-11-11T11:30:44.498Z",
+   "media_id": "17874593055641893",
+   "lien": "https://www.instagram.com/reel/DfmYLixnZdm/"
+  }
  },
  {
   "id": "IG027",
