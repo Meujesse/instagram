@@ -691,9 +691,23 @@
   "publie": null
  },
  {
+  "id": "MD01",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/qGDtDVw42og",
+  "titre": "La surcharge cognitive extrinsèque",
+  "format": "reel",
+  "theme": "esthetique",
+  "caption": "Notre cerveau dispose d'une mémoire de travail limitée. Elle traite une certaine quantité d'informations à un instant donné, pas plus.\n\nQuand une interface est mal structurée, le cerveau doit d'abord faire un premier travail : comprendre où regarder, dans quel ordre lire, quoi prioriser, où cliquer.\n\nCet effort est inutile et contre-productif pour l'apprentissage. Ça porte un nom : la surcharge cognitive extrinsèque.\n\nEt voici la phrase que je voudrais que tout concepteur garde en tête :\n\nChaque unité d'énergie dépensée pour comprendre l'interface est une unité qui n'est plus disponible pour apprendre.\n\nÀ l'inverse, quand le design est clair, hiérarchisé, lisible, cette charge diminue. Et le cerveau peut enfin se concentrer sur l'essentiel : comprendre, mémoriser, faire des liens, s'entraîner.\n\nLa vidéo complète : lien en bio\n\n#SciencesCognitives #ChargeCognitive #DesignPédagogique #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD01/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD01/cover.jpg",
+  "publie": null,
+  "date": "2026-11-25"
+ },
+ {
   "id": "IG154",
   "idx": 204,
-  "date": "2026-11-25",
+  "date": "2026-11-27",
   "attente": null,
   "lien": "https://youtu.be/3Z9TNbvfMw4",
   "titre": "Former vos équipes à l'IA n'est plus un choix.",
@@ -706,9 +720,23 @@
   "publie": null
  },
  {
+  "id": "MD02",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/GoIdWw7IRac",
+  "titre": "Suivant, suivant, suivant",
+  "format": "reel",
+  "theme": "engagement",
+  "caption": "La formation obligatoire sur la cybersécurité. Le RGPD. Le harcèlement.\n\nVous connaissez le scénario :\n\nUne deadline imposée. Des relances automatiques. Parfois des menaces déguisées : impact sur les objectifs annuels, convocation RH.\n\nAlors vous êtes saoulé. Vous cliquez suivant, suivant, suivant. Voix off monotone, slides à n'en plus finir, quiz final répondu quasiment au hasard.\n\nVous validez. Vous passez à autre chose.\n\nVous l'avez faite techniquement. Mais vous n'avez rien retenu.\nVous l'avez juste faite pour qu'on vous laisse tranquille.\n\nÇa vous parle ?\n\n🎥 La vidéo complète : ce que dit vraiment la science sur la sanction en formation 👉 lien en bio\n\n#DigitalLearning #FormationObligatoire #ELearning #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD02/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD02/cover.jpg",
+  "publie": null,
+  "date": "2026-11-29"
+ },
+ {
   "id": "IG034",
   "idx": 184,
-  "date": "2026-11-27",
+  "date": "2026-11-30",
   "attente": null,
   "lien": "https://youtu.be/TtianI5Z1j4",
   "titre": "Créer en interne ou déléguer votre formation en ligne ?",
@@ -721,9 +749,23 @@
   "publie": null
  },
  {
+  "id": "MD03",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/3Z9TNbvfMw4",
+  "titre": "L'article 4, une obligation légale",
+  "format": "reel",
+  "theme": "ia",
+  "caption": "Il y a dans l'AI Act un article que tout responsable formation devrait connaître : l'article 4.\n\nIl dit quelque chose de très simple.\n\nLes fournisseurs et les déployeurs de systèmes d'IA doivent prendre des mesures pour garantir un niveau suffisant de maîtrise de l'IA (l'AI literacy) pour l'ensemble de leur personnel et de toute autre personne qui utilise ces systèmes en leur nom.\n\nC'est un changement de paradigme.\n\nJusqu'ici, former à l'IA était un choix stratégique. Une bonne pratique. Quelque chose que les entreprises les plus avancées faisaient parce qu'elles en avaient compris l'intérêt.\n\nMaintenant, c'est une obligation légale.\n\nLa vidéo complète : lien en bio\n\n#AIAct #AILiteracy #DRH #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD03/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD03/cover.jpg",
+  "publie": null,
+  "date": "2026-12-02"
+ },
+ {
   "id": "IG035",
   "idx": 58,
-  "date": "2026-11-29",
+  "date": "2026-12-04",
   "attente": null,
   "lien": null,
   "titre": "Un quiz en quelques secondes",
@@ -735,9 +777,23 @@
   "publie": null
  },
  {
+  "id": "MD04",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/8zRNjKsiNJk",
+  "titre": "L'attention est devenue la ressource la plus rare",
+  "format": "reel",
+  "theme": "leia",
+  "caption": "Si vous concevez, pilotez ou vendez des formations en ligne, vous l'avez constaté : l'attention est devenue l'une des ressources les plus rares.\n\nEt je veux être précise sur un point, parce qu'on se trompe souvent de diagnostic :\n\nCe n'est pas que les apprenants manquent de bonne volonté.\nC'est qu'ils manquent de disponibilité mentale.\n\nSollicités en permanence, exposés à une quantité massive d'informations, notre cerveau a développé un réflexe très simple : il filtre, il zappe, il décroche.\n\nRésultat : des formations pertinentes sur le fond ne fonctionnent plus comme il y a 10 ou 15 ans.\n\nPas parce qu'elles sont mauvaises. Parce qu'elles ne sont plus alignées avec la manière dont on apprend aujourd'hui.\n\n🎥 La vidéo complète : les 4 piliers attendus par les apprenants en 2026 👉 lien en bio\n\n#DigitalLearning #Attention #ELearning #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD04/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD04/cover.jpg",
+  "publie": null,
+  "date": "2026-12-06"
+ },
+ {
   "id": "IG036",
   "idx": 238,
-  "date": "2026-11-30",
+  "date": "2026-12-07",
   "attente": null,
   "lien": "https://youtu.be/PzGjXKC8SMg",
   "titre": "Et si le problème venait de l'expérience utilisateur ?",
@@ -750,9 +806,23 @@
   "publie": null
  },
  {
+  "id": "MD05",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/wDELUI66lQ4",
+  "titre": "Un freelance, c'est un sniper",
+  "format": "reel",
+  "theme": "offre",
+  "caption": "Un freelance, c'est une seule personne. Souvent très compétente, parfois excellente. Mais limitée à son périmètre d'expertise.\n\nC'est un sniper. Hyper spécialiste, ultra efficace sur une mission précise. Un module à scénariser à partir d'un contenu déjà cadré ? Une production motion design ? Un freelance spécialisé, et c'est très efficace.\n\nEn revanche, dès que le projet devient structurant, avec de l'ingénierie pédagogique, de l'expérience apprenant, du design, de l'interactivité, du choix d'outils, la complexité augmente très vite.\n\nEt là, le choix se porte plutôt vers une agence.\n\nLa vidéo complète est sur YouTube : lien en bio",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD05/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD05/cover.jpg",
+  "publie": null,
+  "date": "2026-12-09"
+ },
+ {
   "id": "IG037",
   "idx": 63,
-  "date": "2026-12-02",
+  "date": "2026-12-11",
   "attente": null,
   "lien": null,
   "titre": "Le coût caché des outils e-learning complexes",
@@ -767,7 +837,7 @@
  {
   "id": "IG038",
   "idx": 59,
-  "date": "2026-12-04",
+  "date": "2026-12-12",
   "attente": null,
   "lien": null,
   "titre": "Animez vos visuels en 2 clics",
@@ -779,9 +849,23 @@
   "publie": null
  },
  {
+  "id": "MD06",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/TtianI5Z1j4",
+  "titre": "70 à 80 % oubliés en quelques jours",
+  "format": "reel",
+  "theme": "offre",
+  "caption": "Le problème le plus coûteux en formation n'est pas visible dans le budget.\n\nBeaucoup de dispositifs sont conçus sans méthode pédagogique solide. Conséquence : pas d'ancrage, pas de mise en pratique.\n\nEt sans ça, jusqu'à 70 à 80 % des informations sont oubliées en quelques jours.\n\nAutrement dit : on investit du temps, on investit de l'argent, on mobilise des équipes… pour un impact très faible.\n\nCe que change une vraie démarche d'ingénierie : une analyse des besoins, une scénarisation pédagogique, des mécanismes d'ancrage et de transfert, et des indicateurs qui mesurent autre chose que la satisfaction à chaud.\n\nOn passe d'une logique de contenu à une logique de compétences réellement acquises.\n\n🎥 La vidéo complète 👉 lien en bio\n\n#IngénieriePédagogique #Ancrage #Évaluation #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD06/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD06/cover.jpg",
+  "publie": null,
+  "date": "2026-12-13"
+ },
+ {
   "id": "IG039",
   "idx": 78,
-  "date": "2026-12-06",
+  "date": "2026-12-14",
   "attente": null,
   "lien": null,
   "titre": "Plonger dans une expérience captivante et ludique",
@@ -796,7 +880,7 @@
  {
   "id": "IG040",
   "idx": 94,
-  "date": "2026-12-07",
+  "date": "2026-12-15",
   "attente": null,
   "lien": null,
   "titre": "Finir la formation ne veut pas dire avoir appris.",
@@ -809,9 +893,23 @@
   "publie": null
  },
  {
+  "id": "MD07",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/qGDtDVw42og",
+  "titre": "50 millisecondes pour juger votre formation",
+  "format": "reel",
+  "theme": "esthetique",
+  "caption": "Votre contenu est solide, sérieux, structuré, validé par les experts métiers.\n\nEt pourtant, dès l'ouverture, quelque chose coince. L'apprenant se retrouve face à une interface chargée, dense, difficile à lire. Impression de complexité immédiate.\n\nCe qui est rarement conscientisé par les concepteurs : l'apprenant ne prend pas le temps de tester une formation. Il la juge. Et très vite.\n\nLes recherches en UX montrent qu'il suffit d'environ 50 millisecondes pour se faire une première opinion visuelle sur une interface.\n\nEn moins d'un clin d'oeil, le cerveau décide si ce qu'il voit est crédible et professionnel. Ou pas.\n\nDans un contexte de surcharge cognitive permanente, cette première impression n'est plus un détail. C'est la porte d'entrée, ou la porte de sortie, vers l'engagement.\n\nLa vidéo complète : lien en bio\n\n#UX #DesignPédagogique #ELearning #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD07/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD07/cover.jpg",
+  "publie": null,
+  "date": "2026-12-16"
+ },
+ {
   "id": "IG041",
   "idx": 61,
-  "date": "2026-12-09",
+  "date": "2026-12-17",
   "attente": null,
   "lien": null,
   "titre": "Des fenêtres de toutes les formes",
@@ -825,7 +923,7 @@
  {
   "id": "IG042",
   "idx": 128,
-  "date": "2026-12-11",
+  "date": "2026-12-18",
   "attente": null,
   "lien": "https://youtu.be/npVPb4nrY1U",
   "titre": "Faut-il un diplôme pour devenir concepteur pédagogique ?",
@@ -840,7 +938,7 @@
  {
   "id": "IG043",
   "idx": 217,
-  "date": "2026-12-12",
+  "date": "2026-12-19",
   "attente": null,
   "lien": null,
   "titre": "9 fois sur 10, deux de ces facteurs sont ignorés.",
@@ -853,9 +951,23 @@
   "publie": null
  },
  {
+  "id": "MD08",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/GoIdWw7IRac",
+  "titre": "La croyance du bâton",
+  "format": "reel",
+  "theme": "engagement",
+  "caption": "Utiliser la pression, la sanction et la punition pour forcer les gens à apprendre : ce n'est pas nouveau.\n\nCette croyance que l'apprentissage passe par l'obéissance est fermement ancrée.\n\nOn croit que s'il n'y a pas de bâton, les gens ne vont pas apprendre. Ou pas s'investir.\n\nSauf que cette vision était déjà critiquée… dans les années 50. Par les premiers grands psychologues de l'apprentissage.\n\nSoixante-dix ans plus tard, on envoie toujours des relances automatiques.\n\n🎥 La vidéo complète : lien en bio\n\n#SciencesCognitives #Formation #Motivation #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD08/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD08/cover.jpg",
+  "publie": null,
+  "date": "2026-12-20"
+ },
+ {
   "id": "IG044",
   "idx": 62,
-  "date": "2026-12-13",
+  "date": "2026-12-21",
   "attente": null,
   "lien": null,
   "titre": "Appliquez votre charte en un clic",
@@ -869,7 +981,7 @@
  {
   "id": "IG045",
   "idx": 89,
-  "date": "2026-12-14",
+  "date": "2026-12-22",
   "attente": null,
   "lien": null,
   "titre": "Si vos apprenants retiennent le jeu et pas le contenu, c'est du gadget.",
@@ -882,9 +994,23 @@
   "publie": null
  },
  {
+  "id": "MD09",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/3Z9TNbvfMw4",
+  "titre": "Vos équipes utilisent déjà l'IA sans le savoir",
+  "format": "reel",
+  "theme": "ia",
+  "caption": "La première des cinq compétences de l'AI literacy, c'est la plus simple et la plus sous-estimée : reconnaître l'IA.\n\nSavoir identifier quand un système utilise une intelligence artificielle.\n\nParce que beaucoup de collaborateurs utilisent des outils alimentés par l'IA sans même le savoir :\n\nLe filtre anti-spam de leur messagerie.\nLes suggestions de leur moteur de recherche.\nL'outil de planification automatique de leurs réunions.\n\nTout ça, c'est de l'intelligence artificielle. Et ça existait bien avant ChatGPT.\n\nLa vidéo complète : lien en bio\n\n#AILiteracy #AIAct #Compétences #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD09/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD09/cover.jpg",
+  "publie": null,
+  "date": "2026-12-23"
+ },
+ {
   "id": "IG046",
   "idx": 214,
-  "date": "2026-12-15",
+  "date": "2026-12-24",
   "attente": null,
   "lien": "https://www.youtube.com/@meujesselearning",
   "titre": "À chaque type de savoir, sa modalité.",
@@ -899,7 +1025,7 @@
  {
   "id": "IG047",
   "idx": 64,
-  "date": "2026-12-16",
+  "date": "2026-12-25",
   "attente": null,
   "lien": null,
   "titre": "Intégrez une vidéo dans Genially",
@@ -913,7 +1039,7 @@
  {
   "id": "IG156",
   "idx": 246,
-  "date": "2026-12-17",
+  "date": "2026-12-26",
   "attente": null,
   "lien": null,
   "titre": "Oui, vous avez bien lu.",
@@ -931,9 +1057,23 @@
   "publie": null
  },
  {
+  "id": "MD10",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/8zRNjKsiNJk",
+  "titre": "Plus de contenu, ce n'est pas mieux",
+  "format": "reel",
+  "theme": "leia",
+  "caption": "Un malentendu qui a la vie dure : une bonne formation serait une formation riche en contenu. Plus de notions, plus de théorie, plus de slides.\n\nAujourd'hui, le problème n'est plus l'accès à l'information. C'est l'inverse : on est en surcharge. Infobésité.\n\nLes vrais problèmes sont ailleurs, et il y en a trois :\n\n1. L'assimilation : transformer l'information en connaissance réellement acquise\n2. L'engagement : se sentir motivé et acteur de son parcours\n3. Le passage à l'action : appliquer en situation réelle\n\nL'enjeu de 2026, c'est de passer de « faire passer un maximum d'informations » à « transmettre les bonnes connaissances, aux bonnes personnes, au bon moment ».\n\nEt ça crée un cercle vertueux : les bonnes personnes, au bon moment, sont naturellement plus engagées. Et elles appliquent.\n\n🎥 La vidéo complète 👉 lien en bio\n\n#Infobésité #IngénieriePédagogique #DigitalLearning #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD10/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD10/cover.jpg",
+  "publie": null,
+  "date": "2026-12-27"
+ },
+ {
   "id": "IG048",
   "idx": 230,
-  "date": "2026-12-18",
+  "date": "2026-12-28",
   "attente": null,
   "lien": "https://youtu.be/6k-bdNdxLJE",
   "titre": "Arrêtez de bricoler : 3 réflexes pour Canva en pro.",
@@ -948,7 +1088,7 @@
  {
   "id": "IG049",
   "idx": 262,
-  "date": "2026-12-19",
+  "date": "2026-12-29",
   "attente": null,
   "lien": "https://calendly.com/jyn-chereze/decouverte",
   "titre": "Je vois régulièrement le premier exemple : des personnes qui pensent créer un parcours péd",
@@ -961,9 +1101,23 @@
   "publie": null
  },
  {
+  "id": "MD11",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/wDELUI66lQ4",
+  "titre": "Une agence, c'est une équipe de force spéciale",
+  "format": "reel",
+  "theme": "offre",
+  "caption": "Pour continuer l'analogie commando : si le freelance est un sniper, l'agence est une équipe de force spéciale.\n\nPlusieurs compétences complémentaires, déjà habituées à travailler ensemble, avec des méthodes communes et un langage partagé. L'ingénieur pédagogique, le concepteur e-learning, le motion designer, le chef de projet, parfois le graphiste.\n\nChaque partie du projet est traitée par la bonne personne. Et ça change profondément la qualité du dispositif final : plus cohérent, plus fluide, mieux aligné entre le fond et la forme.\n\nC'est en partie pour ça qu'après deux ans en freelance, j'ai fait le choix de structurer une agence.\n\nLa vidéo complète est sur YouTube : lien en bio",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD11/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD11/cover.jpg",
+  "publie": null,
+  "date": "2026-12-30"
+ },
+ {
   "id": "IG050",
   "idx": 65,
-  "date": "2026-12-20",
+  "date": "2026-12-31",
   "attente": null,
   "lien": null,
   "titre": "Exportez votre Genially en SCORM",
@@ -977,7 +1131,7 @@
  {
   "id": "IG051",
   "idx": 222,
-  "date": "2026-12-21",
+  "date": "2027-01-01",
   "attente": null,
   "lien": "https://youtu.be/OvitAyev2bs",
   "titre": "L'IA qui décode vos apprenants.",
@@ -992,7 +1146,7 @@
  {
   "id": "IG052",
   "idx": 203,
-  "date": "2026-12-22",
+  "date": "2027-01-02",
   "attente": null,
   "lien": "https://meujesselearning.com/consulting-pedagogique/",
   "titre": "Pendant que vous planifiez votre prochain plan de formation... Vos collaborateurs sont déj",
@@ -1005,9 +1159,23 @@
   "publie": null
  },
  {
+  "id": "MD12",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/TtianI5Z1j4",
+  "titre": "Le multitasking n'est pas un gain de temps",
+  "format": "reel",
+  "theme": "offre",
+  "caption": "Ce que je vois très souvent : des équipes qui veulent bien faire et qui essaient de tout porter elles-mêmes.\n\nSouvent des équipes de deux, trois personnes. Qui doivent concevoir la formation, structurer les contenus, écrire les supports, produire les modules, gérer les outils et piloter le projet.\n\nLe tout en parallèle de leurs autres activités. Parfois même en parallèle de leur cœur de métier, parce qu'elles se retrouvent avec un projet de formation sur les bras alors que ce n'est pas leur métier principal.\n\nEt là, le piège : le multitasking permanent.\n\nContrairement à ce qu'on croit, le multitasking ne fait pas gagner du temps. Il augmente le taux d'erreur, ralentit la prise de décision, et surtout il épuise mentalement.\n\n🎥 La vidéo complète 👉 lien en bio\n\n#Multitasking #ChargeMentale #ProjetDeFormation #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD12/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD12/cover.jpg",
+  "publie": null,
+  "date": "2027-01-03"
+ },
+ {
   "id": "IG053",
   "idx": 66,
-  "date": "2026-12-23",
+  "date": "2027-01-04",
   "attente": null,
   "lien": null,
   "titre": "De Canva à Genially en 3 étapes",
@@ -1021,7 +1189,7 @@
  {
   "id": "IG054",
   "idx": 140,
-  "date": "2026-12-24",
+  "date": "2027-01-05",
   "attente": null,
   "lien": null,
   "titre": "La gamification, ce n'est pas du maquillage.",
@@ -1034,9 +1202,23 @@
   "publie": null
  },
  {
+  "id": "MD13",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/qGDtDVw42og",
+  "titre": "L'effet de halo esthétique-utilisabilité",
+  "format": "reel",
+  "theme": "esthetique",
+  "caption": "Il existe un biais cognitif très bien documenté : l'effet de halo esthétique-utilisabilité.\n\nCe que nous percevons comme beau est automatiquement perçu comme plus simple, plus fiable, plus crédible.\n\nJ'insiste : ce n'est pas qu'une question de goût. Ce n'est pas totalement subjectif. Ça influence directement les performances sur de nombreuses tâches cognitives, y compris la mémoire de travail et la résolution créative de problèmes.\n\nL'esthétique crée un climat de confiance qui rend l'effort acceptable.\n\nEn formation, ça signifie une chose très concrète : un apprenant confronté à un contenu exigeant sera plus patient, plus engagé, plus persévérant, si l'environnement visuel est fluide et rassurant.\n\nLe design ne sert pas seulement à mieux lire. Il sert à mieux comprendre.\n\nLa vidéo complète : lien en bio\n\n#BiaisCognitifs #UX #DesignPédagogique #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD13/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD13/cover.jpg",
+  "publie": null,
+  "date": "2027-01-06"
+ },
+ {
   "id": "IG055",
   "idx": 256,
-  "date": "2026-12-25",
+  "date": "2027-01-07",
   "attente": null,
   "lien": "https://youtu.be/m7A5Xiepq1U",
   "titre": "Qu'est-ce qui donne envie d'apprendre en entreprise ?",
@@ -1051,7 +1233,7 @@
  {
   "id": "IG056",
   "idx": 121,
-  "date": "2026-12-26",
+  "date": "2027-01-08",
   "attente": null,
   "lien": null,
   "titre": "Testez vos compétences en conception e-learning",
@@ -1074,7 +1256,7 @@
  {
   "id": "IG057",
   "idx": 104,
-  "date": "2026-12-27",
+  "date": "2027-01-09",
   "attente": null,
   "lien": null,
   "titre": "« Votre heure de fin dépend de vous. Le record, c'est 1 h 15. »",
@@ -1087,9 +1269,23 @@
   "publie": null
  },
  {
+  "id": "MD14",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/GoIdWw7IRac",
+  "titre": "La boîte de Skinner",
+  "format": "reel",
+  "theme": "engagement",
+  "caption": "Années 30, laboratoire de Harvard. Burrhus Frederic Skinner place un rat dans une cage avec un levier.\n\nVersion 1 : le rat appuie → il reçoit une pastille de nourriture. Il comprend vite. Il recommence encore et encore. Le comportement est renforcé.\n👉 Renforcement positif.\n\nVersion 2 : le plancher envoie des décharges électriques. Le rat appuie → la décharge s'arrête. Il apprend à agir pour faire cesser l'inconfort.\n👉 Renforcement négatif.\n\nRetenez bien le deuxième.\n\nParce que c'est exactement ce que fait votre plateforme LMS quand elle envoie des relances automatiques jusqu'à ce que le module soit terminé.\n\n🎥 La vidéo complète : lien en bio\n\n#Behaviorisme #SciencesCognitives #DigitalLearning #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD14/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD14/cover.jpg",
+  "publie": null,
+  "date": "2027-01-10"
+ },
+ {
   "id": "IG058",
   "idx": 92,
-  "date": "2026-12-28",
+  "date": "2027-01-11",
   "attente": null,
   "lien": "https://youtu.be/GoIdWw7IRac",
   "titre": "Et si le problème n'était pas le contenu, mais la manière de l'imposer ?",
@@ -1104,7 +1300,7 @@
  {
   "id": "IG059",
   "idx": 224,
-  "date": "2026-12-29",
+  "date": "2027-01-12",
   "attente": null,
   "lien": null,
   "titre": "⚄ Il faisait 40°C à l'étage du Palais Rameau à Lille.",
@@ -1121,9 +1317,23 @@
   "publie": null
  },
  {
+  "id": "MD15",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/3Z9TNbvfMw4",
+  "titre": "L'IA, ce n'est pas magique",
+  "format": "reel",
+  "theme": "ia",
+  "caption": "Deuxième compétence de l'AI literacy : comprendre les capacités et les limites.\n\nL'IA, ce n'est pas magique. Elle peut se tromper. Elle peut avoir des biais. Elle fonctionne dans un cadre bien précis.\n\nEt si vos équipes ne comprennent pas ces limites, il n'y a que deux issues :\n\nSoit elles confient à l'IA des décisions qu'elles ne devraient pas lui laisser prendre seule.\nSoit elles la rejettent complètement, par peur de l'erreur.\n\nJe suis sûre que dans votre entreprise, vous avez déjà les deux profils.\n\nLa vidéo complète : lien en bio\n\n#AILiteracy #IA #Formation #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD15/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD15/cover.jpg",
+  "publie": null,
+  "date": "2027-01-13"
+ },
+ {
   "id": "IG060",
   "idx": 257,
-  "date": "2026-12-30",
+  "date": "2027-01-14",
   "attente": null,
   "lien": "https://youtu.be/NvGiO4BCIqw",
   "titre": "Design Sprint et digital learning : la méthode complète",
@@ -1138,7 +1348,7 @@
  {
   "id": "IG061",
   "idx": 100,
-  "date": "2026-12-31",
+  "date": "2027-01-15",
   "attente": null,
   "lien": null,
   "titre": "Ce n'est pas l'apprentissage qu'il faut cacher. C'est le jeu.",
@@ -1153,7 +1363,7 @@
  {
   "id": "IG152",
   "idx": 88,
-  "date": "2027-01-01",
+  "date": "2027-01-16",
   "attente": null,
   "lien": "https://calendly.com/jyn-chereze/formation_genially_gamificartes",
   "titre": "« Je veux que mes apprenants apprennent... sans apprendre. »",
@@ -1166,9 +1376,23 @@
   "publie": null
  },
  {
+  "id": "MD16",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/8zRNjKsiNJk",
+  "titre": "La gamification, ce n'est pas du jeu",
+  "format": "reel",
+  "theme": "leia",
+  "caption": "Quand je parle de ludicité en formation, je ne parle pas de jeu.\n\nLa ludicité, aussi appelée gamification, c'est le fait d'utiliser des mécanismes ludiques ISSUS des jeux pour favoriser l'engagement et atteindre un objectif pédagogique.\n\nLe « issus des jeux » est capital.\n\nLes classiques points, badges et niveaux ? C'est un exemple, pas une définition. Et personnellement, je préfère quand la gamification sert directement l'atteinte des objectifs pédagogiques plutôt que l'engagement pour l'engagement.\n\nCe que les apprenants ne veulent plus : une gamification superficielle, posée artificiellement, histoire de dire « regardez, c'est ludique ».\n\nCe qu'ils veulent : pouvoir agir dans la formation. Faire des choix. Répondre à des situations. Voir les conséquences de leurs décisions.\n\nNi gadget, ni divertissement.\n\n🎥 La vidéo complète 👉 lien en bio\n\n#Gamification #Ludicité #DigitalLearning #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD16/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD16/cover.jpg",
+  "publie": null,
+  "date": "2027-01-17"
+ },
+ {
   "id": "IG062",
   "idx": 231,
-  "date": "2027-01-02",
+  "date": "2027-01-18",
   "attente": null,
   "lien": null,
   "titre": "🔴 L'IA ne remplace pas l'ingénieur pédagogique : au contraire, elle l’empower.",
@@ -1189,7 +1413,7 @@
  {
   "id": "IG063",
   "idx": 130,
-  "date": "2027-01-03",
+  "date": "2027-01-19",
   "attente": null,
   "lien": null,
   "titre": "Vos formations ressemblent-elles à votre entreprise ?",
@@ -1202,9 +1426,23 @@
   "publie": null
  },
  {
+  "id": "MD17",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/wDELUI66lQ4",
+  "titre": "Quand la gestion de projet devient un projet en soi",
+  "format": "reel",
+  "theme": "offre",
+  "caption": "Plusieurs modules, plusieurs formats, plusieurs intervenants, des enjeux de calendrier et de qualité. À ce moment-là, le pilotage commence à peser. Très fortement.\n\nLa gestion de projet devient alors un projet en soi. Et ce temps passé à coordonner, suivre, ajuster, c'est du temps que vous ne passez pas sur vos autres sujets.\n\nEn agence, la logique est différente : la gestion de projet est intégrée dès le départ dans la prestation. Il y a un chef de projet dédié, interlocuteur unique, vrai chef d'orchestre du dispositif.\n\nLa vidéo complète est sur YouTube : lien en bio",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD17/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD17/cover.jpg",
+  "publie": null,
+  "date": "2027-01-20"
+ },
+ {
   "id": "IG064",
   "idx": 126,
-  "date": "2027-01-04",
+  "date": "2027-01-21",
   "attente": null,
   "lien": null,
   "titre": "Vos équipes ne retiennent pas les formations génériques.",
@@ -1219,7 +1457,7 @@
  {
   "id": "IG065",
   "idx": 235,
-  "date": "2027-01-05",
+  "date": "2027-01-22",
   "attente": null,
   "lien": "https://tally.so/r/aQ4E4E",
   "titre": "Je vois certains projets de formation stagner pendant des mois.",
@@ -1237,7 +1475,7 @@
  {
   "id": "IG066",
   "idx": 90,
-  "date": "2027-01-06",
+  "date": "2027-01-23",
   "attente": null,
   "lien": "https://calendly.com/jyn-chereze/formation_genially_gamificartes",
   "titre": "5 façons de complètement rater votre formation gamifiée",
@@ -1250,9 +1488,23 @@
   "publie": null
  },
  {
+  "id": "MD18",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/TtianI5Z1j4",
+  "titre": "Une formation n'est jamais figée",
+  "format": "reel",
+  "theme": "offre",
+  "caption": "Une idée encore trop répandue : on produit le e-learning une fois, et le travail est terminé.\n\nEn réalité, une formation digitale n'est jamais figée. C'est un dispositif vivant. Les outils évoluent, les process changent, les métiers se transforment, les attentes des apprenants aussi.\n\nEt le vrai problème n'est pas que les équipes internes ne veuillent pas faire évoluer leurs dispositifs.\n\nC'est que personne n'est réellement dédié à ça.\n\nLes experts métiers ont autre chose à faire. Les chefs de projet pilotent des priorités multiples. Et la mise à jour pédagogique au fil de l'eau, c'est la responsabilité de personne.\n\n🎥 La vidéo complète 👉 lien en bio\n\n#DigitalLearning #MaintenancePédagogique #ELearning #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD18/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD18/cover.jpg",
+  "publie": null,
+  "date": "2027-01-24"
+ },
+ {
   "id": "IG067",
   "idx": 110,
-  "date": "2027-01-07",
+  "date": "2027-01-25",
   "attente": null,
   "lien": null,
   "titre": "Ce que vous valorisez se répète. Ce que vous sanctionnez se contourne.",
@@ -1267,7 +1519,7 @@
  {
   "id": "IG068",
   "idx": 247,
-  "date": "2027-01-08",
+  "date": "2027-01-26",
   "attente": null,
   "lien": "https://youtu.be/8zRNjKsiNJk",
   "titre": "L'attention, ressource la plus rare",
@@ -1279,9 +1531,23 @@
   "publie": null
  },
  {
+  "id": "MD19",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/qGDtDVw42og",
+  "titre": "Vos apprenants vous comparent à leurs applis",
+  "format": "reel",
+  "theme": "esthetique",
+  "caption": "Les standards ont radicalement évolué, et il faut en tirer les conséquences.\n\nVos apprenants utilisent quotidiennement des interfaces ultra fluides : applications, plateformes, réseaux sociaux. Leur cerveau est habitué à des expériences lisibles, rapides, intuitives.\n\nQuand une formation ne respecte pas ces standards, elle envoie un message implicite :\n\n« Ce dispositif n'est pas au niveau. Il n'est pas crédible. »\n\nEt ce message a un impact direct sur le comportement. L'apprenant survole, accélère, reporte, procrastine. Il décroche.\n\nVotre module n'est pas en concurrence avec le module du concurrent. Il est en concurrence avec tout ce que vos apprenants utilisent par ailleurs.\n\nLa vidéo complète : lien en bio\n\n#UX #ExpérienceApprenant #ELearning #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD19/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD19/cover.jpg",
+  "publie": null,
+  "date": "2027-01-27"
+ },
+ {
   "id": "IG069",
   "idx": 124,
-  "date": "2027-01-09",
+  "date": "2027-01-28",
   "attente": null,
   "lien": null,
   "titre": "Le sur-mesure, un luxe ? Non. Une arme stratégique.",
@@ -1296,7 +1562,7 @@
  {
   "id": "IG070",
   "idx": 210,
-  "date": "2027-01-10",
+  "date": "2027-01-29",
   "attente": null,
   "lien": "https://www.youtube.com/@meujesselearning",
   "titre": "« Des commerciaux. » Ce n'est pas un profil d'apprenant.",
@@ -1311,7 +1577,7 @@
  {
   "id": "IG071",
   "idx": 248,
-  "date": "2027-01-11",
+  "date": "2027-01-30",
   "attente": null,
   "lien": null,
   "titre": "À quoi ressemble notre Dashboard Notion pour gérer nos projets clients ?",
@@ -1332,9 +1598,23 @@
   "publie": null
  },
  {
+  "id": "MD20",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/GoIdWw7IRac",
+  "titre": "Skinner critiquait déjà la punition",
+  "format": "reel",
+  "theme": "engagement",
+  "caption": "On présente souvent Skinner comme le théoricien du dressage. C'est un raccourci.\n\nSkinner critique vivement la punition. Parce qu'elle provoque l'évitement, le stress et la passivité.\n\nIl critique tout aussi vivement l'école de son époque, trop souvent fondée sur la punition des élèves.\n\nNous sommes dans les années 50. Nos parents et grands-parents se souviennent encore des coups de règle sur les doigts quand la leçon n'était pas récitée par cœur.\n\nLa critique du bâton a 70 ans. Et elle vient du camp qu'on accuse.\n\n🎥 La vidéo complète : lien en bio\n\n#Behaviorisme #Pédagogie #Formation #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD20/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD20/cover.jpg",
+  "publie": null,
+  "date": "2027-01-31"
+ },
+ {
   "id": "IG072",
   "idx": 241,
-  "date": "2027-01-12",
+  "date": "2027-02-01",
   "attente": null,
   "lien": null,
   "titre": "Je ne travaille plus seule !",
@@ -1349,7 +1629,7 @@
  {
   "id": "IG073",
   "idx": 144,
-  "date": "2027-01-13",
+  "date": "2027-02-02",
   "attente": null,
   "lien": null,
   "titre": "Un jeu de mémoire dans Genially, sans aucun plugin",
@@ -1362,9 +1642,23 @@
   "publie": null
  },
  {
+  "id": "MD21",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/3Z9TNbvfMw4",
+  "titre": "Interagir, éthique, discernement",
+  "format": "reel",
+  "theme": "ia",
+  "caption": "Les trois dernières compétences de l'AI literacy, celles qu'on oublie le plus souvent dans les plans de formation :\n\n3. Savoir interagir efficacement. Formuler une bonne requête, interpréter un résultat, challenger une suggestion. C'est ce qu'on appelle le prompt engineering, même si c'est plus large que ça.\n\n4. Comprendre les enjeux éthiques. Biais algorithmiques, protection des données, transparence des décisions automatisées.\n\n5. Savoir quand et pourquoi utiliser l'IA. Pas systématiquement. Ça ne doit pas devenir un réflexe. Il faut l'utiliser de manière réfléchie, en fonction du contexte.\n\nFormer à l'IA, ce n'est pas apprendre à utiliser ChatGPT. C'est développer une compréhension globale qui permet de prendre des décisions éclairées.\n\nLa vidéo complète : lien en bio\n\n#AILiteracy #PromptEngineering #Éthique #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD21/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD21/cover.jpg",
+  "publie": null,
+  "date": "2027-02-03"
+ },
+ {
   "id": "IG074",
   "idx": 250,
-  "date": "2027-01-14",
+  "date": "2027-02-04",
   "attente": null,
   "lien": "https://youtu.be/8zRNjKsiNJk",
   "titre": "Plus de contenu, moins d'apprentissage",
@@ -1378,7 +1672,7 @@
  {
   "id": "IG075",
   "idx": 206,
-  "date": "2027-01-15",
+  "date": "2027-02-05",
   "attente": null,
   "lien": "https://youtu.be/npVPb4nrY1U?si=TWcSqVl0GMihlIKB",
   "titre": "Concepteur de formation : le diplôme ne suffit plus.",
@@ -1393,7 +1687,7 @@
  {
   "id": "IG158",
   "idx": 259,
-  "date": "2027-01-16",
+  "date": "2027-02-06",
   "attente": null,
   "lien": "https://meujesselearning.com/masterclass/",
   "titre": "L'IA rend-elle nos métiers inutiles ?",
@@ -1405,9 +1699,23 @@
   "publie": null
  },
  {
+  "id": "MD22",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/8zRNjKsiNJk",
+  "titre": "Le droit à l'erreur",
+  "format": "reel",
+  "theme": "leia",
+  "caption": "Un point clé que je tiens à souligner sur la gamification :\n\nElle ne cherche pas à éviter l'erreur. Elle intègre l'erreur intelligemment.\n\nL'apprenant peut tester, se tromper, ajuster, recommencer, dans un cadre sécurisé, sans pression d'examen final comme à l'école.\n\nC'est ce processus itératif qui favorise un apprentissage réel.\n\nEt ça change la manière d'évaluer : on ne se limite plus à un quiz de validation en fin de module. On observe les choix, les actions, le raisonnement tout au long du parcours.\n\nAutrement dit, on ne mesure plus uniquement ce que l'apprenant SAIT, mais ce qu'il est capable de METTRE EN ŒUVRE dans une situation donnée.\n\n🎥 La vidéo complète 👉 lien en bio\n\n#Évaluation #Gamification #DroitÀLErreur #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD22/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD22/cover.jpg",
+  "publie": null,
+  "date": "2027-02-07"
+ },
+ {
   "id": "IG076",
   "idx": 56,
-  "date": "2027-01-17",
+  "date": "2027-02-08",
   "attente": null,
   "lien": "https://youtu.be/XzlMnJclbUE?si=H7rEDNUlyw8mC7KN",
   "titre": "Créer des modules e-learning interactifs avec Canva et Genially",
@@ -1422,7 +1730,7 @@
  {
   "id": "IG077",
   "idx": 255,
-  "date": "2027-01-18",
+  "date": "2027-02-09",
   "attente": null,
   "lien": "https://youtu.be/8zRNjKsiNJk",
   "titre": "Gamifier, ce n'est pas ajouter du jeu",
@@ -1434,9 +1742,23 @@
   "publie": null
  },
  {
+  "id": "MD23",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/wDELUI66lQ4",
+  "titre": "Le risque de la dépendance à une seule personne",
+  "format": "reel",
+  "theme": "offre",
+  "caption": "Avec un freelance, le projet repose sur les épaules d'une personne. Quand tout va bien, c'est fluide.\n\nMais si elle est surchargée, malade, en congé ou mobilisée ailleurs, le projet ralentit, voire se met en pause.\n\nSur des dispositifs qui s'inscrivent dans la durée, des parcours à maintenir, des contenus à actualiser, cette dépendance devient un risque opérationnel fort.\n\nEn agence, les compétences sont mutualisées. Si une personne est moins disponible, une autre prend le relais. Sans rupture pour le client.\n\nLa vidéo complète est sur YouTube : lien en bio",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD23/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD23/cover.jpg",
+  "publie": null,
+  "date": "2027-02-10"
+ },
+ {
   "id": "IG078",
   "idx": 146,
-  "date": "2027-01-19",
+  "date": "2027-02-11",
   "attente": null,
   "lien": null,
   "titre": "Cartes Genially : 8 façons de les utiliser en formation",
@@ -1451,7 +1773,7 @@
  {
   "id": "IG079",
   "idx": 13,
-  "date": "2027-01-20",
+  "date": "2027-02-12",
   "attente": null,
   "lien": null,
   "titre": "Je n'étais pas censée être ici. J'ai osé quand même.",
@@ -1466,7 +1788,7 @@
  {
   "id": "IG080",
   "idx": 120,
-  "date": "2027-01-21",
+  "date": "2027-02-13",
   "attente": null,
   "lien": null,
   "titre": "Des modules interactifs et engageants ?",
@@ -1486,9 +1808,23 @@
   "publie": null
  },
  {
+  "id": "MD24",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/TtianI5Z1j4",
+  "titre": "Cinq ans plus tard, la refonte complète",
+  "format": "reel",
+  "theme": "offre",
+  "caption": "Ce qui arrive quand personne n'est chargé de la mise à jour :\n\nLa formation n'évolue pas. Elle stagne. Elle vieillit.\n\nEt on se retrouve deux, trois, quatre, voire cinq ans plus tard avec un constat brutal : le dispositif est complètement obsolète. La réglementation a changé, les process aussi. Il faut tout reprendre.\n\nLà, l'investissement est lourd. Parce qu'on ne parle plus d'amélioration.\nOn parle de refonte complète.\n\nLe coût de la non-maintenance est toujours payé. Juste plus tard, et plus cher.\n\n🎥 La vidéo complète 👉 lien en bio\n\n#ELearning #Obsolescence #ProjetDeFormation #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD24/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD24/cover.jpg",
+  "publie": null,
+  "date": "2027-02-14"
+ },
+ {
   "id": "IG081",
   "idx": 10,
-  "date": "2027-01-22",
+  "date": "2027-02-15",
   "attente": null,
   "lien": null,
   "titre": "Ce que le sabre laser m'a appris sur le jeu",
@@ -1503,7 +1839,7 @@
  {
   "id": "IG082",
   "idx": 158,
-  "date": "2027-01-23",
+  "date": "2027-02-16",
   "attente": null,
   "lien": null,
   "titre": "Sécurité des données : un frein de moins pour choisir Genially.",
@@ -1516,9 +1852,23 @@
   "publie": null
  },
  {
+  "id": "MD25",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/qGDtDVw42og",
+  "titre": "Le design comme multiplicateur de ROI",
+  "format": "reel",
+  "theme": "esthetique",
+  "caption": "Pour les directions qui voient le design comme un poste de dépense secondaire :\n\nLes études en UX montrent qu'un investissement en design peut générer des retours sur investissement extrêmement élevés.\n\nEn e-learning, ça se traduit très concrètement : plus de complétion, plus de compréhension, et surtout plus d'application sur le terrain.\n\nUne interface optimisée peut augmenter les taux de complétion de 200 à 400 %.\n\nEt le design est aussi le premier levier d'accessibilité : quand on améliore la lisibilité, les contrastes et la hiérarchie visuelle, on améliore l'expérience pour tout le monde.\n\nLa vidéo complète : lien en bio\n\n#ROI #UX #Accessibilité #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD25/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD25/cover.jpg",
+  "publie": null,
+  "date": "2027-02-17"
+ },
+ {
   "id": "IG083",
   "idx": 208,
-  "date": "2027-01-24",
+  "date": "2027-02-18",
   "attente": null,
   "lien": null,
   "titre": "20 minutes bloquée dans un ascenseur. Seule. Dans un hôtel. On dirait le pitch d'un nouvea",
@@ -1533,7 +1883,7 @@
  {
   "id": "IG084",
   "idx": 156,
-  "date": "2027-01-25",
+  "date": "2027-02-19",
   "attente": null,
   "lien": null,
   "titre": "Commentez vos projets directement dans Genially",
@@ -1548,7 +1898,7 @@
  {
   "id": "IG085",
   "idx": 137,
-  "date": "2027-01-26",
+  "date": "2027-02-20",
   "attente": null,
   "lien": "https://youtu.be/Hmu29Vr8rpg",
   "titre": "L'IA va-t-elle remplacer les concepteurs pédagogiques ?",
@@ -1561,9 +1911,23 @@
   "publie": null
  },
  {
+  "id": "MD26",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/GoIdWw7IRac",
+  "titre": "L'ancêtre du e-learning a 70 ans",
+  "format": "reel",
+  "theme": "engagement",
+  "caption": "Skinner tire de ses travaux une méthode pédagogique : l'enseignement programmé.\n\nLes ingrédients :\n\n→ un contenu découpé en micro-unités\n→ à chaque étape, une question posée à l'apprenant\n→ il répond et reçoit un retour immédiat\n→ en cas de bonne réponse, une récompense ou un encouragement\n→ en cas d'échec, il peut revenir en arrière sans être sanctionné\n\nL'objectif : apprendre sans punition, grâce à des renforcements positifs répétés.\n\nEst-ce que ça ne vous dirait pas quelque chose ?\n\nLe micro-learning et le e-learning modulaire qu'on vend aujourd'hui comme une innovation ont été théorisés dans les années 50.\n\n🎥 La vidéo complète : lien en bio\n\n#MicroLearning #ELearning #HistoireDeLaPédagogie #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD26/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD26/cover.jpg",
+  "publie": null,
+  "date": "2027-02-21"
+ },
+ {
   "id": "IG086",
   "idx": 159,
-  "date": "2027-01-27",
+  "date": "2027-02-22",
   "attente": null,
   "lien": "https://youtu.be/N0dPCxztV0w",
   "titre": "3 choses à savoir avant de se lancer en freelance",
@@ -1578,7 +1942,7 @@
  {
   "id": "IG087",
   "idx": 201,
-  "date": "2027-01-28",
+  "date": "2027-02-23",
   "attente": null,
   "lien": "https://meujesselearning.com/formation-canva-genially/",
   "titre": "Il n'y a pas si longtemps, ce que je m'apprête à vous montrer aurait coûté des milliers d'",
@@ -1591,9 +1955,23 @@
   "publie": null
  },
  {
+  "id": "MD27",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/3Z9TNbvfMw4",
+  "titre": "Assister n'est pas maîtriser",
+  "format": "reel",
+  "theme": "ia",
+  "caption": "C'est la nuance juridique que beaucoup vont manquer.\n\nCe que le règlement demande, ce n'est pas que vos collaborateurs aient assisté à une formation sur l'IA. Ni qu'ils soient sensibilisés.\n\nC'est qu'ils aient un niveau suffisant de maîtrise.\n\nC'est très différent.\n\nAssister à une conférence ou à une sensibilisation, c'est un premier pas. Mais c'est une action ponctuelle.\n\nMaîtriser, c'est un résultat mesurable.\n\nEt pour obtenir un résultat durable, il faut un dispositif durable. Pas un one-shot.\n\nLa vidéo complète : lien en bio\n\n#AIAct #Conformité #IngénieriePédagogique #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD27/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD27/cover.jpg",
+  "publie": null,
+  "date": "2027-02-24"
+ },
+ {
   "id": "IG088",
   "idx": 229,
-  "date": "2027-01-29",
+  "date": "2027-02-25",
   "attente": null,
   "lien": "https://genially.com/fr/ressources/ebook-ludopedagogie",
   "titre": "Ludopédagogie : engager sans renoncer à la rigueur.",
@@ -1608,7 +1986,7 @@
  {
   "id": "IG089",
   "idx": 213,
-  "date": "2027-01-30",
+  "date": "2027-02-26",
   "attente": null,
   "lien": null,
   "titre": "Former des PNC à Canva en une demi-journée.",
@@ -1623,7 +2001,7 @@
  {
   "id": "IG090",
   "idx": 198,
-  "date": "2027-01-31",
+  "date": "2027-02-27",
   "attente": null,
   "lien": "https://youtu.be/YPIos62M3Ag",
   "titre": "Canva Code : un quiz interactif sans une ligne de code.",
@@ -1636,9 +2014,23 @@
   "publie": null
  },
  {
+  "id": "MD28",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/8zRNjKsiNJk",
+  "titre": "L'esthétique, ce n'est pas faire joli",
+  "format": "reel",
+  "theme": "leia",
+  "caption": "Deuxième pilier attendu par les apprenants en 2026 : l'esthétique.\n\nEt je vais être très claire : il ne s'agit pas de faire joli. Il ne s'agit pas de « c'est beau / c'est moche ». Il s'agit de faciliter la compréhension.\n\nVos apprenants utilisent chaque jour des applications fluides, claires, bien pensées. Inconsciemment, ils comparent ces standards à vos outils de formation.\n\nQuand un module est visuellement confus, surchargé ou daté, ils en déduisent que la formation est compliquée. Voire peu crédible.\n\nCe n'est pas subjectif. C'est un mécanisme très documenté : nous percevons ce qui est clair et bien conçu comme plus facile à utiliser et plus fiable. Apple a construit une partie de son succès là-dessus.\n\nUn design mal pensé surcharge le cerveau. Et quand la charge cognitive est trop élevée, l'apprenant n'apprend plus : il lutte simplement pour suivre.\n\n🎥 La vidéo complète 👉 lien en bio\n\n#DesignPédagogique #ChargeCognitive #ELearning #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD28/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD28/cover.jpg",
+  "publie": null,
+  "date": "2027-02-28"
+ },
+ {
   "id": "IG091",
   "idx": 171,
-  "date": "2027-02-01",
+  "date": "2027-03-01",
   "attente": null,
   "lien": "https://youtu.be/khtxrxh64Qo",
   "titre": "3 erreurs fatales quand tu veux lancer ton agence",
@@ -1653,7 +2045,7 @@
  {
   "id": "IG092",
   "idx": 190,
-  "date": "2027-02-02",
+  "date": "2027-03-02",
   "attente": null,
   "lien": null,
   "titre": "Former sur Canva... entre des bacs à shampoing",
@@ -1666,9 +2058,23 @@
   "publie": null
  },
  {
+  "id": "MD29",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/wDELUI66lQ4",
+  "titre": "L'erreur du freelance traité comme une micro-agence",
+  "format": "reel",
+  "theme": "offre",
+  "caption": "Il y a une erreur que je vois revenir très souvent, et je veux vraiment insister dessus.\n\nC'est de traiter un freelance comme une sorte de micro-agence à lui tout seul.\n\nOn lui demande de concevoir toute la formation. Scénariser, gamifier, produire les e-learning, écrire les supports, monter les vidéos. Le tout dans des délais serrés, avec un budget tiré vers le bas.\n\nLa vidéo complète est sur YouTube : lien en bio",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD29/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD29/cover.jpg",
+  "publie": null,
+  "date": "2027-03-03"
+ },
+ {
   "id": "IG093",
   "idx": 87,
-  "date": "2027-02-03",
+  "date": "2027-03-04",
   "attente": null,
   "lien": "https://youtu.be/jVOQZhoAGQI?si=DGrg5A-tgO_Ch1cN",
   "titre": "Créer, gamifier, engager avec Genially",
@@ -1683,7 +2089,7 @@
  {
   "id": "IG094",
   "idx": 53,
-  "date": "2027-02-04",
+  "date": "2027-03-05",
   "attente": null,
   "lien": null,
   "titre": "2 minutes pour pitcher toute mon entreprise.",
@@ -1698,7 +2104,7 @@
  {
   "id": "IG159",
   "idx": 263,
-  "date": "2027-02-05",
+  "date": "2027-03-06",
   "attente": null,
   "lien": "https://meujesselearning.com/masterclas/",
   "titre": "Le fun ne se mesure pas",
@@ -1710,9 +2116,23 @@
   "publie": null
  },
  {
+  "id": "MD30",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/TtianI5Z1j4",
+  "titre": "Pas de gadget, pas de fun pour faire joli",
+  "format": "reel",
+  "theme": "offre",
+  "caption": "L'idée n'est jamais d'imposer une solution standardisée, mais de concevoir un dispositif qui vous correspond et qui a un impact réel sur votre terrain.\n\nC'est de la co-construction.\n\nAlors non, déléguer vos projets de formation, ce n'est pas perdre la main ni perdre le contrôle.\n\nC'est vous libérer de la surcharge, sécuriser vos décisions et augmenter l'impact réel de vos dispositifs.\n\nDéléguer, c'est passer d'une logique d'urgence à une logique de performance durable.\n\n🎥 La vidéo complète 👉 lien en bio\n\n#Délégation #CoConstruction #DigitalLearning #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD30/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD30/cover.jpg",
+  "publie": null,
+  "date": "2027-03-07"
+ },
+ {
   "id": "IG095",
   "idx": 207,
-  "date": "2027-02-06",
+  "date": "2027-03-08",
   "attente": null,
   "lien": "https://youtu.be/ouYeoNu-C0g",
   "titre": "400 milliards de dollars de formation pour rien ?",
@@ -1727,7 +2147,7 @@
  {
   "id": "IG096",
   "idx": 218,
-  "date": "2027-02-07",
+  "date": "2027-03-09",
   "attente": null,
   "lien": null,
   "titre": "Ce qu'aucune IA ne sait encore faire : un module vraiment engageant.",
@@ -1740,9 +2160,23 @@
   "publie": null
  },
  {
+  "id": "MD31",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/qGDtDVw42og",
+  "titre": "Le « détail séduisant »",
+  "format": "reel",
+  "theme": "esthetique",
+  "caption": "Là où beaucoup d'organisations se trompent : elles traitent le design comme une touche finale, un habillage graphique ajouté à la fin du projet.\n\nLe design pédagogique, ce n'est pas ça. Ça repose sur des principes précis issus des sciences cognitives. Le cerveau apprend mieux quand l'information est segmentée, quand le texte est proche de l'image qu'il explique, et quand on évite les éléments superflus.\n\nEt attention à un piège qui porte un nom : le détail séduisant.\n\nCe sont des éléments visuellement attractifs mais pédagogiquement inutiles. Ils attirent l'oeil et captent l'attention au détriment de ce qu'on doit réellement apprendre.\n\nRésultat : baisse de la mémorisation, sans même que l'apprenant en ait conscience.\n\nLa vidéo complète : lien en bio\n\n#SciencesCognitives #DesignPédagogique #ELearning #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD31/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD31/cover.jpg",
+  "publie": null,
+  "date": "2027-03-10"
+ },
+ {
   "id": "IG097",
   "idx": 164,
-  "date": "2027-02-08",
+  "date": "2027-03-11",
   "attente": null,
   "lien": null,
   "titre": "Je ne pouvais plus être seule à bord.",
@@ -1757,7 +2191,7 @@
  {
   "id": "IG098",
   "idx": 71,
-  "date": "2027-02-09",
+  "date": "2027-03-12",
   "attente": null,
   "lien": "https://youtu.be/7UxhpJThCUQ?si=iOrmANEpLw3UCIGJ",
   "titre": "3 étapes (vraiment) faciles pour des modules engageants",
@@ -1772,7 +2206,7 @@
  {
   "id": "IG099",
   "idx": 165,
-  "date": "2027-02-10",
+  "date": "2027-03-13",
   "attente": null,
   "lien": null,
   "titre": "Le plafond de verre n'était plus financier, mais structurel.",
@@ -1785,9 +2219,23 @@
   "publie": null
  },
  {
+  "id": "MD32",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/GoIdWw7IRac",
+  "titre": "Vos relances sont contre-productives",
+  "format": "reel",
+  "theme": "engagement",
+  "caption": "« Vous devez absolument finir avant vendredi, sinon vous ne pourrez pas accéder à tel bonus. »\n« Ce module est obligatoire, si vous ne le faites pas, vous serez convoqué par les RH. »\n« On va envoyer des relances tous les jours jusqu'à ce que vous ayez cliqué sur la slide 12. »\n\nJe comprends la tentation. Les délais sont réels, certaines formations sont vraiment obligatoires.\n\nMais posons le mot juste : c'est du renforcement négatif. Je fais la formation → j'arrête de recevoir les emails désagréables.\n\nEt c'est profondément contre-productif.\n\nÇa génère du désengagement. Ça favorise la passivité. Ça favorise le binge-click : je clique, je passe, je ne retiens rien.\n\nEt surtout, ça détruit l'envie d'apprendre.\n\n🎥 La vidéo complète : lien en bio\n\n#FormationEnEntreprise #Engagement #RH #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD32/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD32/cover.jpg",
+  "publie": null,
+  "date": "2027-03-14"
+ },
+ {
   "id": "IG100",
   "idx": 266,
-  "date": "2027-02-11",
+  "date": "2027-03-15",
   "attente": null,
   "lien": null,
   "titre": "Ça y est !!",
@@ -1802,7 +2250,7 @@
  {
   "id": "IG101",
   "idx": 98,
-  "date": "2027-02-12",
+  "date": "2027-03-16",
   "attente": null,
   "lien": "https://youtu.be/bWhG3kHlnWk",
   "titre": "Créer son organisme de formation : les vraies questions à se poser",
@@ -1815,9 +2263,23 @@
   "publie": null
  },
  {
+  "id": "MD33",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/3Z9TNbvfMw4",
+  "titre": "Levier 1 : le parcours progressif",
+  "format": "reel",
+  "theme": "ia",
+  "caption": "Premier levier pour passer d'une obligation réglementaire à un dispositif qui fonctionne : le parcours progressif, plutôt que le one-shot.\n\nAu lieu d'une grande formation unique, construisez un parcours qui s'étale dans le temps. Des modules courts de 15 à 20 minutes, espacés sur plusieurs semaines, avec de la réactivation entre chacun.\n\nOn appelle ça le spaced learning, l'apprentissage espacé. C'est exactement ce qui permet de contrer la courbe de l'oubli.\n\nLes rapports sectoriels récents, notamment ceux de Josh Bersin, confirment la tendance : les entreprises les plus performantes en formation passent du static learning (des catalogues figés qu'on consomme passivement) au dynamic enablement, un apprentissage intégré dans le flux de travail, qui s'adapte au contexte et au rythme de chacun.\n\nLa vidéo complète : lien en bio\n\n#SpacedLearning #AIAct #DigitalLearning #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD33/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD33/cover.jpg",
+  "publie": null,
+  "date": "2027-03-17"
+ },
+ {
   "id": "IG102",
   "idx": 252,
-  "date": "2027-02-13",
+  "date": "2027-03-18",
   "attente": null,
   "lien": null,
   "titre": "La compétence indispensable du concepteur e-learning ?",
@@ -1832,7 +2294,7 @@
  {
   "id": "IG103",
   "idx": 95,
-  "date": "2027-02-14",
+  "date": "2027-03-19",
   "attente": null,
   "lien": "https://youtu.be/5-eGnaDUk2Y",
   "titre": "Je n'ai pas trouvé ma voie du premier coup.",
@@ -1847,7 +2309,7 @@
  {
   "id": "IG104",
   "idx": 160,
-  "date": "2027-02-15",
+  "date": "2027-03-20",
   "attente": null,
   "lien": "https://youtu.be/JNriPbArNEY?si=sQxsBZsgj5dfYozs",
   "titre": "Freelance en e-learning ? Regardez ça avant de vous lancer",
@@ -1860,9 +2322,23 @@
   "publie": null
  },
  {
+  "id": "MD34",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/8zRNjKsiNJk",
+  "titre": "Ce n'est plus le temps passé à se former, c'est le temps gagné à être compétent",
+  "format": "reel",
+  "theme": "leia",
+  "caption": "L'apprenant n'a plus besoin d'apprendre « au cas où ». Il a besoin d'apprendre au moment où le problème se pose.\n\nLes formations longues, généralistes, pensées pour un usage hypothétique répondent de moins en moins aux réalités du terrain.\n\nEt la manière de mesurer a changé avec :\n\nOn ne mesure plus la réussite d'une formation au nombre d'heures suivies. Ni même au taux de complétion : ce n'est plus suffisant.\n\nCe qui compte, c'est la rapidité avec laquelle une personne devient réellement opérationnelle.\n\nAutrement dit : ce n'est plus le temps passé à se former qui fait la valeur. C'est le temps gagné à être compétent.\n\nConcrètement, avant de créer un module, une seule question : quel est le vrai problème à résoudre ?\n\n🎥 La vidéo complète 👉 lien en bio\n\n#Impact #DigitalLearning #ROIFormation #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD34/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD34/cover.jpg",
+  "publie": null,
+  "date": "2027-03-21"
+ },
+ {
   "id": "IG105",
   "idx": 189,
-  "date": "2027-02-16",
+  "date": "2027-03-22",
   "attente": null,
   "lien": null,
   "titre": "Gamifier, ce n'est pas rendre fun. C'est faire progresser.",
@@ -1877,7 +2353,7 @@
  {
   "id": "IG106",
   "idx": 116,
-  "date": "2027-02-17",
+  "date": "2027-03-23",
   "attente": null,
   "lien": "https://meujesselearning.com/formation-canva-genially/",
   "titre": "« J'ai perdu 4 heures sur un p***** de bouton ! »",
@@ -1890,9 +2366,23 @@
   "publie": null
  },
  {
+  "id": "MD35",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/wDELUI66lQ4",
+  "titre": "Soit une expertise précise, soit une agence",
+  "format": "reel",
+  "theme": "offre",
+  "caption": "Voyez les choses dans un prisme différent.\n\nSoit vous faites appel à un freelance pour une ou deux expertises précises et clairement définies.\n\nSoit le projet est d'envergure, avec plusieurs heures de formation, plusieurs formats, plusieurs enjeux. Et dans ce cas, préparez un budget cohérent avec cette ambition, et orientez-vous vers une agence capable de porter cette complexité avec son équipe.\n\nLa vidéo complète est sur YouTube : lien en bio",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD35/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD35/cover.jpg",
+  "publie": null,
+  "date": "2027-03-24"
+ },
+ {
   "id": "IG107",
   "idx": 139,
-  "date": "2027-02-18",
+  "date": "2027-03-25",
   "attente": null,
   "lien": null,
   "titre": "Ton Genially est beau. Mais il ne sert à rien.",
@@ -1907,7 +2397,7 @@
  {
   "id": "IG108",
   "idx": 152,
-  "date": "2027-02-19",
+  "date": "2027-03-26",
   "attente": null,
   "lien": null,
   "titre": "La gamification, ce n'est pas une couche de fun ajoutée pour faire joli.",
@@ -1922,7 +2412,7 @@
  {
   "id": "IG109",
   "idx": 157,
-  "date": "2027-02-20",
+  "date": "2027-03-27",
   "attente": null,
   "lien": "https://youtu.be/Jod0YLwkpiY",
   "titre": "3 créations Genially passées au crible",
@@ -1935,9 +2425,23 @@
   "publie": null
  },
  {
+  "id": "MD36",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/TtianI5Z1j4",
+  "titre": "Déléguer sans devenir dépendant",
+  "format": "reel",
+  "theme": "offre",
+  "caption": "L'objection que j'entends le plus sur la délégation : « si je délègue, je deviens dépendant de mon prestataire. »\n\nC'est exactement l'inverse de ce qu'on cherche à faire.\n\nQuand on travaille avec une agence, le projet est structuré, les choix pédagogiques sont documentés, les arbitrages sont tracés.\n\nÇa vous permet ensuite de faire des ajustements et des évolutions en autonomie, sans risquer de créer des incohérences ou des contradictions dans le parcours.\n\nDéléguer, ce n'est donc pas seulement produire une formation. C'est bénéficier d'un accompagnement et d'une méthode qui améliorent durablement vos pratiques pédagogiques.\n\nOn ne délègue pas uniquement pour faire mieux aujourd'hui, mais pour éviter de payer très cher demain.\n\n🎥 La vidéo complète 👉 lien en bio\n\n#Délégation #AgenceDigitalLearning #Autonomie #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD36/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD36/cover.jpg",
+  "publie": null,
+  "date": "2027-03-28"
+ },
+ {
   "id": "IG110",
   "idx": 183,
-  "date": "2027-02-21",
+  "date": "2027-03-29",
   "attente": null,
   "lien": "https://youtu.be/8zRNjKsiNJk",
   "titre": "Former en ligne n'est pas plus compliqué. C'est différent.",
@@ -1952,7 +2456,7 @@
  {
   "id": "IG111",
   "idx": 205,
-  "date": "2027-02-22",
+  "date": "2027-03-30",
   "attente": null,
   "lien": "https://meujesselearning.com/prestations-digital-learning-sur-mesure/",
   "titre": "41% des offres de formation en France sont désormais majoritairement blended. C'est le chi",
@@ -1965,9 +2469,23 @@
   "publie": null
  },
  {
+  "id": "MD37",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/qGDtDVw42og",
+  "titre": "L'esthétique est une infrastructure",
+  "format": "reel",
+  "theme": "esthetique",
+  "caption": "Au fond, l'esthétique en e-learning n'est plus une question de goût.\nC'est une infrastructure.\n\nUn bon design permet à l'apprenant d'apprendre plus vite, avec moins de fatigue, avec plus d'impact. Il reste focus sur vos messages clés, sur les compétences à transmettre.\n\nUn mauvais design crée une friction invisible qui finit toujours par coûter très cher : les apprenants se désengagent et survolent, parce que leur attention est captée par des éléments parasites.\n\nDonc la vraie question n'est pas « est-ce que ma formation est belle ».\n\nC'est : en quoi son design aide réellement à comprendre et à appliquer ?\n\nLa vidéo complète : lien en bio\n\n#DesignPédagogique #Esthétique #LEIA #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD37/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD37/cover.jpg",
+  "publie": null,
+  "date": "2027-03-31"
+ },
+ {
   "id": "IG112",
   "idx": 251,
-  "date": "2027-02-23",
+  "date": "2027-04-01",
   "attente": null,
   "lien": null,
   "titre": "Ma responsable marketing m’a raconté qu’elle avait entendu une experte IA dire lors d’une ",
@@ -1982,7 +2500,7 @@
  {
   "id": "IG113",
   "idx": 168,
-  "date": "2027-02-24",
+  "date": "2027-04-02",
   "attente": null,
   "lien": null,
   "titre": "Le plus gros défi ? Le lâcher-prise.",
@@ -1997,7 +2515,7 @@
  {
   "id": "IG114",
   "idx": 176,
-  "date": "2027-02-25",
+  "date": "2027-04-03",
   "attente": null,
   "lien": "https://youtu.be/QpxNYfzdInQ",
   "titre": "Peut-on vraiment faire des designs pros avec Canva ?",
@@ -2010,9 +2528,23 @@
   "publie": null
  },
  {
+  "id": "MD38",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/GoIdWw7IRac",
+  "titre": "Le renforcement positif, concrètement",
+  "format": "reel",
+  "theme": "engagement",
+  "caption": "« D'accord, mais concrètement, on fait quoi à la place des relances ? »\n\nVoici ce que peut être le renforcement positif dans un dispositif de formation :\n\n→ Des feedbacks constructifs pendant le e-learning\n→ De la gamification, adaptée à vos apprenants (pas seulement des points, badges et niveaux)\n→ Du tutorat quand c'est possible : il augmente drastiquement les chances de commencer ET de terminer une formation\n→ De petits contenus bonus inspirants par email, à la place des relances\n→ Un parcours guidé et clair, avec des succès rapides pour renforcer la motivation\n→ Un ton bienveillant et engageant, avec un e-learning dynamique, pas juste une suite de slides avec une voix off par-dessus\n\nAucun de ces leviers ne coûte plus cher qu'une campagne de relances. Ils coûtent juste plus d'attention.\n\n🎥 La vidéo complète : lien en bio\n\n#ELearning #Gamification #Tutorat #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD38/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD38/cover.jpg",
+  "publie": null,
+  "date": "2027-04-04"
+ },
+ {
   "id": "IG155",
   "idx": 219,
-  "date": "2027-02-26",
+  "date": "2027-04-05",
   "attente": null,
   "lien": null,
   "titre": "⚄ Vous me connaissez.",
@@ -2027,7 +2559,7 @@
  {
   "id": "IG115",
   "idx": 191,
-  "date": "2027-02-27",
+  "date": "2027-04-06",
   "attente": null,
   "lien": "https://youtu.be/wDELUI66lQ4",
   "titre": "Déléguer à un freelance ou à une agence ?",
@@ -2040,9 +2572,23 @@
   "publie": null
  },
  {
+  "id": "MD39",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/3Z9TNbvfMw4",
+  "titre": "Levier 2 : l'ancrage métier",
+  "format": "reel",
+  "theme": "ia",
+  "caption": "Deuxième levier : l'ancrage métier.\n\nFormer à l'IA avec une formation sur étagère achetée des milliers d'euros, très sincèrement, ça ne fonctionne pas.\n\nCe qui fonctionne, c'est de former chaque métier à l'IA dans son contexte.\n\nL'IA pour un recruteur, ce n'est pas du tout la même chose que l'IA pour un responsable qualité ou pour un commercial. Les cas d'usage sont différents. Les risques sont différents. Les questions éthiques sont différentes.\n\nQuand vous concevez votre dispositif, partez des situations de travail réelles de vos équipes :\n\nQuels outils d'IA utilisent-elles déjà ?\nDans quels processus l'IA intervient-elle ?\nQuelles décisions sont assistées par un algorithme ?\n\nC'est à partir de ces questions-là qu'on construit un parcours qui répond réellement à l'article 4.\n\nLa vidéo complète : lien en bio\n\n#AIAct #FormationSurMesure #DigitalLearning #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD39/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD39/cover.jpg",
+  "publie": null,
+  "date": "2027-04-07"
+ },
+ {
   "id": "IG116",
   "idx": 216,
-  "date": "2027-02-28",
+  "date": "2027-04-08",
   "attente": null,
   "lien": "https://youtu.be/VN4P8BbcRZY",
   "titre": "5 erreurs qui se jouent avant la production.",
@@ -2057,7 +2603,7 @@
  {
   "id": "IG117",
   "idx": 97,
-  "date": "2027-03-01",
+  "date": "2027-04-09",
   "attente": null,
   "lien": null,
   "titre": "Trop de parcours blended empilent les modalités sans les articuler.",
@@ -2072,7 +2618,7 @@
  {
   "id": "IG118",
   "idx": 138,
-  "date": "2027-03-02",
+  "date": "2027-04-10",
   "attente": null,
   "lien": "https://www.trustpilot.com/review/meujesselearning.com",
   "titre": "« Le fait de travailler sur un vrai cas permet de se projeter. »",
@@ -2085,9 +2631,23 @@
   "publie": null
  },
  {
+  "id": "MD40",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/8zRNjKsiNJk",
+  "titre": "LEIA : les quatre piliers",
+  "format": "reel",
+  "theme": "leia",
+  "caption": "Quand on prend du recul sur les attentes des apprenants, on retrouve toujours les mêmes fondamentaux :\n\nLudicité. Esthétique. Impact. Accessibilité.\n\nC'est exactement sur ces quatre piliers que repose le travail de mon agence Meujesse Learning. Je les ai regroupés sous l'acronyme LEIA, pour ceux qui ont la réf. 😉\n\nLEIA, c'est notre grille de lecture pour concevoir des contenus e-learning plus attractifs, plus clairs et surtout plus alignés avec les exigences des apprenants de 2026.\n\nC'est aussi ce qui nous permet d'aller au-delà du simple module de formation, pour créer de véritables expériences d'apprentissage : utiles, engageantes et captivantes.\n\n🎥 Les 4 piliers détaillés dans la vidéo complète 👉 lien en bio\n\n#LEIA #DigitalLearning #IngénieriePédagogique #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD40/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD40/cover.jpg",
+  "publie": null,
+  "date": "2027-04-11"
+ },
+ {
   "id": "IG119",
   "idx": 170,
-  "date": "2027-03-03",
+  "date": "2027-04-12",
   "attente": null,
   "lien": null,
   "titre": "Une agence à taille humaine, mais à impact exponentiel.",
@@ -2102,7 +2662,7 @@
  {
   "id": "IG120",
   "idx": 125,
-  "date": "2027-03-04",
+  "date": "2027-04-13",
   "attente": null,
   "lien": null,
   "titre": "Des slides et une voix-off ne font pas un e-learning interactif.",
@@ -2115,9 +2675,23 @@
   "publie": null
  },
  {
+  "id": "MD41",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/wDELUI66lQ4",
+  "titre": "Freelance ou agence : comment choisir",
+  "format": "reel",
+  "theme": "offre",
+  "caption": "Quand le besoin est clair, net et précis, et qu'il n'y a pas tout un dispositif à concevoir, le freelance est efficace et direct. Intégrer un storyboard dans un outil auteur, rédiger des scripts pédagogiques, intégrer du contenu dans le LMS déjà en place.\n\nDès lors que le projet devient plus complexe, plus ambitieux, plus stratégique, l'agence prend tout son sens. Un parcours complet multimodule, un dispositif blended combinant e-learning, classe virtuelle et présentiel, un projet à grande échelle pour plusieurs populations, éventuellement à l'international.\n\nLa vidéo complète est sur YouTube : lien en bio",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD41/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD41/cover.jpg",
+  "publie": null,
+  "date": "2027-04-14"
+ },
+ {
   "id": "IG121",
   "idx": 167,
-  "date": "2027-03-05",
+  "date": "2027-04-15",
   "attente": null,
   "lien": null,
   "titre": "Passer de « je fais tout » à « je fais faire ».",
@@ -2132,7 +2706,7 @@
  {
   "id": "IG122",
   "idx": 242,
-  "date": "2027-03-06",
+  "date": "2027-04-16",
   "attente": null,
   "lien": null,
   "titre": "On pourrait aussi ajouter :",
@@ -2147,7 +2721,7 @@
  {
   "id": "IG123",
   "idx": 68,
-  "date": "2027-03-07",
+  "date": "2027-04-17",
   "attente": null,
   "lien": null,
   "titre": "« Canva et Genially, c'est adapté à mon profil ? » Oui.",
@@ -2160,9 +2734,23 @@
   "publie": null
  },
  {
+  "id": "MD42",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/qGDtDVw42og",
+  "titre": "L'animation sans intention",
+  "format": "reel",
+  "theme": "esthetique",
+  "caption": "Je le constate tout le temps en consulting sur les modules de mes clients.\n\nDes animations, des effets de transition, des éléments qui clignotent, des pictos décoratifs, des mouvements permanents. Sans lien clair avec l'objectif pédagogique.\n\nLe problème, ce n'est pas l'animation en soi. Les pictos, les images, les transitions, c'est très bien.\n\nLe problème, c'est l'animation sans intention.\n\nÀ partir du moment où un élément visuel n'aide pas l'apprenant à comprendre plus vite, à mémoriser plus facilement ou à savoir quoi faire ensuite, cet élément devient du bruit cognitif.\n\nDans ces cas-là, notre travail consiste souvent à épurer le module : ne garder que ce qui a une valeur pédagogique, ralentir le rythme, clarifier la hiérarchie de l'information, remettre le focus sur l'essentiel.\n\nChaque couleur, chaque animation, chaque interactivité doit avoir une raison d'être, guidée par l'objectif pédagogique. Sinon, elle nuit à l'objectif.\n\nLa vidéo complète : lien en bio\n\n#DesignPédagogique #Genially #ELearning #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD42/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD42/cover.jpg",
+  "publie": null,
+  "date": "2027-04-18"
+ },
+ {
   "id": "IG124",
   "idx": 106,
-  "date": "2027-03-08",
+  "date": "2027-04-19",
   "attente": null,
   "lien": "https://youtu.be/_vQsgX7qVsU",
   "titre": "Un bon template Genially, ce n'est pas juste un joli design.",
@@ -2177,7 +2765,7 @@
  {
   "id": "IG125",
   "idx": 107,
-  "date": "2027-03-09",
+  "date": "2027-04-20",
   "attente": null,
   "lien": null,
   "titre": "Le template est un point de départ. Pas une prison.",
@@ -2190,9 +2778,23 @@
   "publie": null
  },
  {
+  "id": "MD43",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/GoIdWw7IRac",
+  "titre": "Un bon e-learning ne suffit pas",
+  "format": "reel",
+  "theme": "engagement",
+  "caption": "Le behaviorisme nous dit une chose simple : notre environnement influe sur nos comportements.\n\nConséquence directe, et elle est inconfortable :\n\nUne formation e-learning bien conçue ne suffit pas si tout l'environnement autour du collaborateur est basé sur l'usage du bâton, de la sanction et de la punition.\n\nLa cohérence doit venir de toute la chaîne. Service formation. RH. Management de proximité. Communication.\n\nOn ne peut pas dire « le e-learning, ça ne marche pas » si tout l'écosystème autour repose sur du renforcement négatif.\n\n🎥 La vidéo complète : lien en bio\n\n#ELearning #CultureApprenante #RH #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD43/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD43/cover.jpg",
+  "publie": null,
+  "date": "2027-04-21"
+ },
+ {
   "id": "IG126",
   "idx": 111,
-  "date": "2027-03-10",
+  "date": "2027-04-22",
   "attente": null,
   "lien": "https://meujesselearning.com/formation-canva-genially/",
   "titre": "Vous avez déjà eu honte de montrer un module que vous aviez créé ?",
@@ -2207,7 +2809,7 @@
  {
   "id": "IG127",
   "idx": 166,
-  "date": "2027-03-11",
+  "date": "2027-04-23",
   "attente": null,
   "lien": null,
   "titre": "Personne ne te prépare au passage de freelance à cheffe d'agence.",
@@ -2222,7 +2824,7 @@
  {
   "id": "IG128",
   "idx": 154,
-  "date": "2027-03-12",
+  "date": "2027-04-24",
   "attente": null,
   "lien": null,
   "titre": "Vous avez l'idée. Mais devant Genially, c'est le bug total.",
@@ -2235,9 +2837,23 @@
   "publie": null
  },
  {
+  "id": "MD44",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/3Z9TNbvfMw4",
+  "titre": "Levier 3 : l'évaluation continue",
+  "format": "reel",
+  "theme": "ia",
+  "caption": "Troisième levier : l'évaluation continue.\n\nL'AI Act parle de niveau suffisant de maîtrise. Ça implique que vous devez pouvoir prouver, ou au minimum démontrer, que vos collaborateurs ont atteint ce niveau.\n\nCe qui signifie qu'il vous faut des indicateurs.\n\nPas un taux de complétion de module. Ça, ça ne prouve rien.\n\nMais des évaluations de compétences, des mises en situation, des cas pratiques qui montrent que la personne sait effectivement reconnaître, comprendre et utiliser l'IA de manière responsable.\n\nEt c'est là que le cadre des cinq compétences devient très utile : il vous donne une grille sur laquelle adosser vos évaluations.\n\nLa vidéo complète : lien en bio\n\n#Évaluation #AIAct #Compétences #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD44/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD44/cover.jpg",
+  "publie": null,
+  "date": "2027-04-25"
+ },
+ {
   "id": "IG129",
   "idx": 155,
-  "date": "2027-03-13",
+  "date": "2027-04-26",
   "attente": null,
   "lien": null,
   "titre": "« J'aimerais ajouter une touche ludique... mais je n'ai aucune idée. »",
@@ -2252,7 +2868,7 @@
  {
   "id": "IG130",
   "idx": 193,
-  "date": "2027-03-14",
+  "date": "2027-04-27",
   "attente": null,
   "lien": null,
   "titre": "J'ai formé les équipes des Incollables... sur Canva",
@@ -2265,9 +2881,23 @@
   "publie": null
  },
  {
+  "id": "MD45",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/wDELUI66lQ4",
+  "titre": "L'arbre qui cache la forêt",
+  "format": "reel",
+  "theme": "offre",
+  "caption": "Oui, le tarif journalier d'un freelance est souvent plus bas. Mais c'est l'arbre qui cache la forêt.\n\nLes coûts cachés : le temps passé en interne à cadrer et recadrer, les retards de livraison qui décalent le lancement, les compromis sur l'expérience apprenant et sur l'interactivité.\n\nTout ça, une agence l'anticipe et l'intègre dans ses services. Et oui, ça se répercute sur son prix.\n\nAu final, on ne paie pas juste pour produire un module. On paie pour un dispositif complet, pour la sérénité, pour un résultat pédagogique qui tient la route dans la durée.\n\nLa vidéo complète est sur YouTube : lien en bio",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD45/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD45/cover.jpg",
+  "publie": null,
+  "date": "2027-04-28"
+ },
+ {
   "id": "IG131",
   "idx": 102,
-  "date": "2027-03-15",
+  "date": "2027-04-29",
   "attente": null,
   "lien": null,
   "titre": "Vous avez la vision. Mais le rendu ne suit pas.",
@@ -2282,7 +2912,7 @@
  {
   "id": "IG132",
   "idx": 114,
-  "date": "2027-03-16",
+  "date": "2027-04-30",
   "attente": null,
   "lien": "https://youtu.be/VrdsYsqJlfo",
   "titre": "Un bon template ne se regarde pas. Il s'analyse.",
@@ -2297,7 +2927,7 @@
  {
   "id": "IG133",
   "idx": 131,
-  "date": "2027-03-17",
+  "date": "2027-05-01",
   "attente": null,
   "lien": null,
   "titre": "Le sur-mesure coûte plus cher ? Peut-être. Mais il vous rapporte plus.",
@@ -2310,9 +2940,23 @@
   "publie": null
  },
  {
+  "id": "MD46",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/GoIdWw7IRac",
+  "titre": "Ce qu'on valorise se répète",
+  "format": "reel",
+  "theme": "engagement",
+  "caption": "La théorie de Skinner a ses limites. Le behaviorisme ne prend pas en compte la motivation intrinsèque, le sens qu'on donne à la formation, l'état d'esprit de l'apprenant.\n\nMais il y a une chose à en retenir, et elle est très simple :\n\nCe qu'on valorise se répète.\n\nUne formation réussie, ce n'est pas une formation terminée. C'est une formation dans laquelle l'apprenant s'investit. Dans laquelle il a envie d'aller jusqu'au bout.\n\nPas pour faire plaisir à sa boîte. Parce qu'il est renforcé positivement dans ce comportement.\n\n🎥 La vidéo complète : lien en bio\n\n#SciencesCognitives #Motivation #DigitalLearning #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD46/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD46/cover.jpg",
+  "publie": null,
+  "date": "2027-05-02"
+ },
+ {
   "id": "IG134",
   "idx": 113,
-  "date": "2027-03-18",
+  "date": "2027-05-03",
   "attente": null,
   "lien": null,
   "titre": "Créer un module e-learning ne devrait pas être une épreuve.",
@@ -2327,7 +2971,7 @@
  {
   "id": "IG135",
   "idx": 118,
-  "date": "2027-03-19",
+  "date": "2027-05-04",
   "attente": null,
   "lien": "https://meujesselearning.com/formation-canva-genially/",
   "titre": "« Je me suis dit : je suis nulle. »",
@@ -2340,9 +2984,23 @@
   "publie": null
  },
  {
+  "id": "MD47",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/3Z9TNbvfMw4",
+  "titre": "35 millions d'euros",
+  "format": "reel",
+  "theme": "ia",
+  "caption": "Quand je dis obligation légale, je ne parle pas d'une recommandation avec une petite astérisque.\n\nL'article 99 du règlement prévoit des sanctions. Jusqu'à 35 millions d'euros d'amende.\n\nDes montants du même ordre que le RGPD. Et on sait comment ça s'est passé avec le RGPD : ça a mis du temps à être vraiment pris au sérieux. Jusqu'à ce que les premières sanctions tombent.\n\nSoyons lucides : est-ce que la CNIL va débarquer demain dans votre entreprise pour vérifier si vos collaborateurs ont suivi un module sur l'IA ? Probablement pas tout de suite.\n\nMais le texte est là. Le cadre est posé.\n\nEt ceux qui attendent le dernier moment le font toujours à leurs dépens.\n\nLa vidéo complète : lien en bio\n\n#AIAct #RGPD #Conformité #MeujesseLearning",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD47/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD47/cover.jpg",
+  "publie": null,
+  "date": "2027-05-05"
+ },
+ {
   "id": "IG136",
   "idx": 127,
-  "date": "2027-03-20",
+  "date": "2027-05-06",
   "attente": null,
   "lien": null,
   "titre": "Avec du sur-mesure, c'est vous qui êtes aux commandes.",
@@ -2357,7 +3015,7 @@
  {
   "id": "IG137",
   "idx": 123,
-  "date": "2027-03-21",
+  "date": "2027-05-07",
   "attente": null,
   "lien": "https://youtu.be/CVwH2B9eEUg",
   "titre": "Le jeu a aussi sa place dans le marketing.",
@@ -2372,7 +3030,7 @@
  {
   "id": "IG138",
   "idx": 172,
-  "date": "2027-03-22",
+  "date": "2027-05-08",
   "attente": null,
   "lien": null,
   "titre": "Spoiler : on ne commence pas par recruter.",
@@ -2385,9 +3043,23 @@
   "publie": null
  },
  {
+  "id": "MD48",
+  "idx": null,
+  "attente": null,
+  "lien": "https://youtu.be/wDELUI66lQ4",
+  "titre": "Comment se mesure vraiment la rentabilité d'une formation",
+  "format": "reel",
+  "theme": "offre",
+  "caption": "Une formation, c'est un investissement. Et sa rentabilité ne se mesure pas en cherchant le prix le plus bas.\n\nElle se mesure à la montée en compétences réelle des apprenants, à leur satisfaction, à l'impact sur leur performance.\n\nSi vous êtes une entreprise, ça touche votre performance globale et votre RSE. Si vous êtes un organisme de formation, ça touche votre bouche-à-oreille, votre réputation et vos ventes.\n\nLe bon raisonnement n'est donc pas « comment faire au moins cher », mais « comment structurer le projet intelligemment ».\n\nLa vidéo complète est sur YouTube : lien en bio",
+  "video_url": "https://meujesse.github.io/instagram/medias/MD48/video.mp4",
+  "cover_url": "https://meujesse.github.io/instagram/medias/MD48/cover.jpg",
+  "publie": null,
+  "date": "2027-05-09"
+ },
+ {
   "id": "IG139",
   "idx": 129,
-  "date": "2027-03-23",
+  "date": "2027-05-10",
   "attente": null,
   "lien": null,
   "titre": "Votre module e-learning, c'est aussi votre vitrine.",
@@ -2402,7 +3074,7 @@
  {
   "id": "IG140",
   "idx": 209,
-  "date": "2027-03-24",
+  "date": "2027-05-11",
   "attente": null,
   "lien": "https://www.youtube.com/@meujesselearning",
   "titre": "51 % des freins au digital learning sont organisationnels.",
@@ -2417,7 +3089,7 @@
  {
   "id": "IG141",
   "idx": 151,
-  "date": "2027-03-25",
+  "date": "2027-05-12",
   "attente": null,
   "lien": null,
   "titre": "Genially a son assistant officiel dans ChatGPT",
@@ -2432,7 +3104,7 @@
  {
   "id": "IG142",
   "idx": 133,
-  "date": "2027-03-26",
+  "date": "2027-05-13",
   "attente": null,
   "lien": null,
   "titre": "Deux jours à LudiNord Pro, le salon du jeu au travail",
@@ -2447,7 +3119,7 @@
  {
   "id": "IG143",
   "idx": 108,
-  "date": "2027-03-27",
+  "date": "2027-05-14",
   "attente": null,
   "lien": "https://youtu.be/k_eF0Bt_0Ho",
   "titre": "Canva et Genially sont connectés. Encore faut-il savoir quoi en faire.",
@@ -2462,7 +3134,7 @@
  {
   "id": "IG144",
   "idx": 239,
-  "date": "2027-03-28",
+  "date": "2027-05-15",
   "attente": null,
   "lien": null,
   "titre": "⚄ Vous ne serez pas remplacé par l'IA. Vous serez remplacé par quelqu'un qui a développé d",
@@ -2477,7 +3149,7 @@
  {
   "id": "IG145",
   "idx": 202,
-  "date": "2027-03-29",
+  "date": "2027-05-16",
   "attente": null,
   "lien": "https://www.youtube.com/@meujesselearning",
   "titre": "Des apprenants qui ne récitent pas un mémoire. Ils défendent un projet.",
@@ -2492,7 +3164,7 @@
  {
   "id": "IG146",
   "idx": 115,
-  "date": "2027-03-30",
+  "date": "2027-05-17",
   "attente": null,
   "lien": null,
   "titre": "61 % des apprenants jugent le vidéo learning efficace. C'est trop peu.",
@@ -2507,7 +3179,7 @@
  {
   "id": "IG147",
   "idx": 223,
-  "date": "2027-03-31",
+  "date": "2027-05-18",
   "attente": null,
   "lien": null,
   "titre": "La créativité est la compétence la plus sous-estimée.",
@@ -2522,7 +3194,7 @@
  {
   "id": "IG148",
   "idx": 0,
-  "date": "2027-04-01",
+  "date": "2027-05-19",
   "attente": null,
   "lien": null,
   "titre": "Apprendre ne s'arrête pas à la fin de la formation.",
@@ -2537,7 +3209,7 @@
  {
   "id": "IG149",
   "idx": 221,
-  "date": "2027-04-02",
+  "date": "2027-05-20",
   "attente": null,
   "lien": null,
   "titre": "Utiliser Genially ne suffit plus. Concevoir une expérience, si.",
@@ -2552,7 +3224,7 @@
  {
   "id": "IG150",
   "idx": 169,
-  "date": "2027-04-03",
+  "date": "2027-05-21",
   "attente": null,
   "lien": null,
   "titre": "Passer de freelance à agence, c'est passer du sprint au marathon.",
@@ -2567,7 +3239,7 @@
  {
   "id": "IG151",
   "idx": 119,
-  "date": "2027-04-04",
+  "date": "2027-05-22",
   "attente": null,
   "lien": null,
   "titre": "Concevoir un module, c'est aussi reprendre confiance.",
