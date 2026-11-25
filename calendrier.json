@@ -709,7 +709,11 @@
   "caption": "Notre cerveau dispose d'une mémoire de travail limitée. Elle traite une certaine quantité d'informations à un instant donné, pas plus.\n\nQuand une interface est mal structurée, le cerveau doit d'abord faire un premier travail : comprendre où regarder, dans quel ordre lire, quoi prioriser, où cliquer.\n\nCet effort est inutile et contre-productif pour l'apprentissage. Ça porte un nom : la surcharge cognitive extrinsèque.\n\nEt voici la phrase que je voudrais que tout concepteur garde en tête :\n\nChaque unité d'énergie dépensée pour comprendre l'interface est une unité qui n'est plus disponible pour apprendre.\n\nÀ l'inverse, quand le design est clair, hiérarchisé, lisible, cette charge diminue. Et le cerveau peut enfin se concentrer sur l'essentiel : comprendre, mémoriser, faire des liens, s'entraîner.\n\nLa vidéo complète : lien en bio\n\n#SciencesCognitives #ChargeCognitive #DesignPédagogique #MeujesseLearning",
   "video_url": "https://meujesse.github.io/instagram/medias/MD01/video.mp4",
   "cover_url": "https://meujesse.github.io/instagram/medias/MD01/cover.jpg",
-  "publie": null,
+  "publie": {
+   "le": "2026-11-25T11:31:20.429Z",
+   "media_id": "18510581230096370",
+   "lien": "https://www.instagram.com/reel/DgKbUblwQoZ/"
+  },
   "date": "2026-11-25"
  },
  {
